@@ -1,0 +1,104 @@
+[
+  {
+    "id": "chicken-and-noodles",
+    "title": "Chicken and Noodles",
+    "category": "soup",
+    "tags": [],
+    "ingredientList": [
+      { "quantity": 1, "unit": null, "ref": "rotisserie-chicken" },
+      { "quantity": 4, "unit": "cup", "ref": "chicken-stock", "note": "low sodium" },
+      { "quantity": 1, "unit": "12 oz package", "ref": "egg-noodles" },
+      { "quantity": 1, "unit": "stick", "ref": "butter" },
+      { "quantity": 0.5, "unit": "cup", "ref": "all-purpose-flour" },
+      { "quantity": 1, "unit": "tsp", "ref": "thyme" },
+      { "quantity": 1, "unit": "tsp", "ref": "oregano" },
+      { "quantity": 0.5, "unit": "tsp", "ref": "parsley" },
+      { "quantity": 1, "unit": "Tbsp", "ref": "garlic-powder" },
+      { "quantity": 1, "unit": "Tbsp", "ref": "onion-powder" },
+      { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
+      { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" }
+    ],
+    "instructions": [
+      "Melt butter in large pot over medium heat.",
+      "Add flour, whisk until combined, and brown.",
+      "Slowly add chicken stock, whisking constantly.",
+      "Add between 2-4 cups water (2 cups will yield little to no broth, 4 cups will be more brothy like soup).",
+      "Bring to a boil, whisking frequently to keep roux from clumping.",
+      "Add noodles.",
+      "Cook according to noodle packaging, stirring occasionally, adding spices in the last minute or two.",
+      "While noodles are cooking, shred white meat from rotisserie chicken.",
+      "Stir chicken into noodles after removing from heat",
+      "Serve in bowls."
+    ]
+  },
+  {
+    "id": "al-bundys-chili",
+    "title": "Al Bundy's Chili",
+    "category": "soup",
+    "tags": [],
+    "ingredientList": [
+      { "quantity": 1, "unit": null, "ref": "white-onion", "prep": "diced" },
+      { "quantity": 1, "unit": null, "ref": "green-pepper", "prep": "ribs and seeds removed and diced" },
+      { "quantity": 2, "unit": null, "ref": "jalapeno", "prep": "ribs and seeds removed and diced" },
+      { "quantity": 5, "unit": "clove", "ref": "garlic", "prep": "minced" },
+      { "quantity": 1, "unit": "14 oz can", "ref": "crushed-tomatoes" },
+      { "quantity": 2, "unit": "lb", "ref": "ground-beef" },
+      { "quantity": 2, "unit": "cup", "ref": "beef-stock", "note": "low sodium" },
+      { "quantity": 2, "unit": "cup", "ref": "white-rice", "note": "instant" },
+      { "quantity": 1, "unit": "Tbsp", "ref": "chili-powder" },
+      { "quantity": 1, "unit": "Tbsp", "ref": "paprika" },
+      { "quantity": 0.5, "unit": "Tbsp", "ref": "oregano" },
+      { "quantity": 0.5, "unit": "Tbsp", "ref": "cumin" },
+      { "quantity": 0.5, "unit": "tsp", "ref": "cayenne-pepper" },
+      { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
+      { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" }
+    ],
+    "instructions": [
+      "Heat a drizzle of oil in large pot over medium-high heat.",
+      "Cook garlic, onions, green peppers, and jalapeños 2-3 minutes, until fragrant and onion is translucent.",
+      "Add ground beef, chili powder, paprika, cayenne pepper, oregano, cumin, salt and pepper.",
+      "Cook until beef is browned through.",
+      "Add beef stock and crushed tomatoes and bring to a boil.",
+      "Reduce heat and simmer for 20-25 minutes.",
+      "While chili simmers, bring 1 cup water to a boil in a small pot.",
+      "Add rice and remove from heat.",
+      "Serve chili over rice."
+    ]
+  },
+  {
+    "id": "broccoli-cheddar-soup",
+    "title": "Broccoli Cheddar Soup",
+    "category": "soup",
+    "tags": [],
+    "imagePath": "/images/recipes/broccoli-cheddar-soup.jpg",
+    "ingredientList": [
+      { "quantity": 5, "unit": "Tbsp", "ref": "butter", "note": "unsalted" },
+      { "quantity": 1, "unit": null, "ref": "yellow-onion", "note": "medium", "prep": "diced" },
+      { "quantity": 2, "unit": "clove", "ref": "garlic", "prep": "minced" },
+      { "quantity": 3.5, "unit": "cup", "ref": "broccoli", "prep": "florets only or florets and stems" },
+      { "quantity": 2, "unit": null, "ref": "carrot", "note": "large", "prep": "cut into thin slices" },
+      { "quantity": 0.25, "unit": "cup", "ref": "all-purpose-flour" },
+      { "quantity": 2, "unit": "cup", "ref": "chicken-stock", "note": "low sodium" },
+      { "quantity": 2, "unit": "cup", "ref": "half-and-half", "note": "fat free" },
+      { "quantity": 0.5, "unit": "tsp", "ref": "paprika" },
+      { "quantity": 1, "unit": "pinch", "ref": "cayenne-pepper", "prep": "to taste (optional but recommended)" },
+      { "quantity": 8, "unit": "oz", "ref": "cheddar-cheese", "note": "high quality extra sharp", "prep": "grated" },
+      { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
+      { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" }
+    ],
+    "instructions": [
+      "Dice onion, mince garlic, and peel and cut carrots into thin slices.",
+      "In a medium pan, add 1 Tbsp butter and diced onion. Sauté over medium heat until onion is translucent and barely browned, about 4 minutes.",
+      "Add the garlic and cook about 30 seconds, stirring constantly. Remove pan from heat and set aside.",
+      "In a large pot, add remaining butter and flour and cook over medium heat for 3-5 minutes, whisking constantly, until flour is thickened.",
+      "Slowly add chicken stock, whisking constantly.",
+      "Slowly add half & half, whisking constantly.",
+      "Allow mixture to simmer over low heat for 15-20 minutes, whisking intermittently to re-incorporate skin.",
+      "After simmering 15-20 minutes, add broccoli, carrots, and onion and garlic previously set aside.",
+      "Add salt, pepper, paprika, cayenne pepper and stir to combine.",
+      "Allow to simmer over low heat for 20-25 minutes, whisking intermittently to re-incorporate skin.",
+      "While soup simmers, grate the cheese. After simmering 20-25 minutes, add most of the cheese, reserving a small amount for garnishing if desired. Stir in cheese until melted and fully incorporated, about 1 minute.",
+      "Transfer to bowls and serve."
+    ]
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "carrot": {
+    "name": "carrot",
+    "description": "Carrot is a crunchy, sweet root vegetable that is rich in beta-carotene. It is often eaten raw, steamed, or added to soups and stews."
+  },
+  "scallion": {
+    "name": "scallion",
+    "description": "Scallion, also known as green onion, is a mild-flavored vegetable used in salads, soups, and as a garnish."
+  },
+  "ground-beef": {
+    "name": "ground beef",
+    "description": "Ground beef is minced beef that is commonly used in a variety of dishes, including burgers, meatballs, and tacos."
+  },
+  "vegetable-stock": {
+    "name": "vegetable stock",
+    "description": "Vegetable stock is a flavorful liquid made by simmering a variety of vegetables. It is commonly used as a base for soups and stews."
+  },
+  "yellow-onion": {
+    "name": "yellow onion",
+    "description": "Yellow onion is a versatile vegetable with a strong flavor. It is commonly used in soups, stews, and sautés."
+  },
+  "salt": {
+    "name": "salt",
+    "description": "Salt is a mineral used to enhance the flavor of food. It is a common seasoning in cooking and baking."
+  },
+  "cumin": {
+    "name": "cumin",
+    "description": "Cumin is a spice made from the dried seeds of the cumin plant. It has a warm, earthy flavor and is commonly used in Middle Eastern, Indian, and Mexican cuisines."
+  },
+  "iceberg-lettuce": {
+    "name": "iceberg lettuce",
+    "description": "Iceberg lettuce is a crisp, refreshing vegetable commonly used in salads and sandwiches. It has a mild flavor and crunchy texture."
+  },
+  "pepper": {
+    "name": "pepper",
+    "description": "Pepper is a spice made from ground peppercorns. It adds a pungent, spicy flavor to dishes and is commonly used as a seasoning."
+  },
+  "shrimp": {
+    "name": "shrimp",
+    "description": "Shrimp are small, flavorful crustaceans that are commonly used in seafood dishes. They can be boiled, grilled, or sautéed."
+  },
+  "white-rice": {
+    "name": "white rice",
+    "description": "White rice is a staple grain that is widely consumed around the world. It is commonly boiled or steamed and served as a side dish or base for various recipes."
+  },
+  "cayenne-pepper": {
+    "name": "cayenne pepper",
+    "description": "Cayenne pepper is a hot, spicy powder made from dried chili peppers. It is used to add heat and flavor to a variety of dishes."
+  },
+  "beef-stock": {
+    "name": "beef stock",
+    "description": "Beef stock is a rich, savory liquid made by simmering beef bones and vegetables. It is often used as a base for soups, stews, and sauces."
+  },
+  "white-onion": {
+    "name": "white onion",
+    "description": "White onion is a crisp, flavorful vegetable often used in salads, salsas, and as a topping for various dishes."
+  },
+  "rotisserie-chicken": {
+    "name": "rotisserie chicken",
+    "description": "Rotisserie chicken is a whole chicken that has been seasoned and cooked on a rotisserie. It is commonly used in salads, sandwiches, and as a main dish."
+  },
+  "butter": {
+    "name": "butter",
+    "description": "Butter is a rich, creamy dairy product made from churning milk or cream. It is commonly used in baking, cooking, and as a spread."
+  },
+  "garlic-powder": {
+    "name": "garlic powder",
+    "description": "Garlic powder is a ground form of dehydrated garlic. It is used as a seasoning to add garlic flavor to dishes."
+  },
+  "half-and-half": {
+    "name": "half & half",
+    "description": "Half & half is a dairy product made from equal parts milk and cream. It is often used in coffee, sauces, and soups."
+  },
+  "soy-sauce": {
+    "name": "soy sauce",
+    "description": "Soy sauce is a salty, savory sauce made from fermented soybeans. It is commonly used in Asian cuisine as a seasoning and condiment."
+  },
+  "broccoli": {
+    "name": "broccoli",
+    "description": "Broccoli is a nutritious green vegetable rich in vitamins and minerals. It is commonly steamed, roasted, or added to stir-fries."
+  },
+  "cheddar-cheese": {
+    "name": "cheddar cheese",
+    "description": "Cheddar cheese is a popular, sharp-tasting cheese made from cow's milk. It is commonly used in sandwiches, sauces, and as a topping for various dishes."
+  },
+  "crushed-tomatoes": {
+    "name": "crushed tomatoes",
+    "description": "Crushed tomatoes are tomatoes that have been peeled, seeded, and crushed. They are commonly used in sauces, soups, and stews for their rich flavor and thick texture."
+  },
+  "paprika": {
+    "name": "paprika",
+    "description": "Paprika is a ground spice made from dried red peppers. It adds a mild, sweet flavor and vibrant color to dishes."
+  },
+  "green-pepper": {
+    "name": "green pepper",
+    "description": "Green pepper, also known as bell pepper, is a crisp, sweet vegetable commonly used in salads, stir-fries, and as a topping for pizzas."
+  },
+  "oregano": {
+    "name": "oregano",
+    "description": "Oregano is a fragrant herb commonly used in Mediterranean and Mexican cuisines. It has a slightly bitter, pungent flavor."
+  },
+  "chicken-stock": {
+    "name": "chicken stock",
+    "description": "Chicken stock is a flavorful liquid made by simmering chicken bones and vegetables. It is commonly used as a base for soups and sauces."
+  },
+  "olive-oil": {
+    "name": "olive oil",
+    "description": "Olive oil is a healthy, flavorful oil extracted from olives. It is widely used in cooking, dressings, and marinades, and is known for its heart-healthy benefits and rich, fruity taste."
+  },
+  "romaine-lettuce": {
+    "name": "romaine lettuce",
+    "description": "Romaine lettuce is a leafy green vegetable with a slightly bitter taste. It is commonly used in salads, especially Caesar salads."
+  },
+  "thyme": {
+    "name": "thyme",
+    "description": "Thyme is a fragrant herb with a slightly minty flavor. It is commonly used in soups, stews, and roasted dishes."
+  },
+  "parsley": {
+    "name": "parsley",
+    "description": "Parsley is a bright green herb used as a garnish and flavoring in a variety of dishes. It has a fresh, slightly peppery taste."
+  },
+  "garlic": {
+    "name": "garlic",
+    "description": "Garlic is a pungent, flavorful bulb used in a variety of dishes for its distinctive taste and aroma. It is often minced or crushed and added to sauces, marinades, and dressings."
+  },
+  "chicken-breast": {
+    "name": "chicken breast",
+    "description": "Chicken breast is a lean cut of meat from the breast of a chicken. It is commonly grilled, baked, or sautéed."
+  },
+  "egg-noodles": {
+    "name": "egg noodles",
+    "description": "Egg noodles are a type of pasta made with flour and eggs. They are commonly used in soups, casseroles, and as a side dish."
+  },
+  "fresh-tomato": {
+    "name": "fresh tomato",
+    "description": "Tomato is a versatile, juicy fruit that is commonly used in salads, sauces, and soups. It is rich in vitamins and antioxidants, and can be eaten raw or cooked."
+  },
+  "onion-powder": {
+    "name": "onion powder",
+    "description": "Onion powder is a ground form of dehydrated onions. It is used as a seasoning to add onion flavor to dishes."
+  },
+  "chili-powder": {
+    "name": "chili powder",
+    "description": "Chili powder is a blend of ground dried chili peppers and other spices. It is commonly used to add heat and flavor to dishes, especially in Mexican and Tex-Mex cuisine."
+  },
+  "all-purpose-flour": {
+    "name": "all purpose flour",
+    "description": "All purpose flour is a versatile flour used in baking and cooking. It is made from a blend of hard and soft wheat."
+  },
+  "jalapeno": {
+    "name": "jalapeno",
+    "description": "Jalapeno is a medium-sized chili pepper with a moderate level of heat. It is commonly used in Mexican cuisine to add spice to dishes."
+  }
+}
