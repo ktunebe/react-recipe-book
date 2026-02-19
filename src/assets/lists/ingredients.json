@@ -131,8 +131,8 @@
     "name": "egg noodles",
     "description": "Egg noodles are a type of pasta made with flour and eggs. They are commonly used in soups, casseroles, and as a side dish."
   },
-  "fresh-tomato": {
-    "name": "fresh tomato",
+  "tomato": {
+    "name": "tomato",
     "description": "Tomato is a versatile, juicy fruit that is commonly used in salads, sauces, and soups. It is rich in vitamins and antioxidants, and can be eaten raw or cooked."
   },
   "onion-powder": {

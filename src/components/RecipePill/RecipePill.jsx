@@ -1,11 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
-function RecipePill({title}) {
+function RecipePill({title, href}) {
   return (
   <>
-    <Link>
-      <li className='rounded-full border-2 py-1 px-3 '>{title}</li>
+    <Link to={href}>
+      <li className='recipe-pill'>{title}</li>
     </Link>
   </>
   );

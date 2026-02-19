@@ -14,7 +14,7 @@ function CourseSection({ course }) {
 			</h2>
 			<ul className="flex gap-4">
 				{courseRecipes.map((recipe) => (
-					<RecipePill key={recipe.id} title={recipe.title} />
+					<RecipePill key={recipe.id} href={recipe.id} title={recipe.title} />
 				))}
 			</ul>
 		</div>

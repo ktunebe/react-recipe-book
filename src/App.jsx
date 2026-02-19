@@ -1,16 +1,16 @@
-import { Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
-import Recipe from './pages/Recipe'
-import './index.css'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/recipe/:id" element={<Recipe />} />
-    </Routes>
+    <div className="min-h-screen bg-background text-text">
+      <div className='max-w-350 mx-auto px-6 sm:px-12'>
+        {/* Header here later */}
+        <Outlet />
+      </div>
+    </div>
   )
 }
 
 export default App
+
 

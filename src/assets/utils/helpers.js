@@ -1,3 +1,16 @@
+// Pluralize words
+export function pluralize(string) {
+  switch (true) {
+    case string.endsWith('s') || string.endsWith('h'):
+      return `${string}es`;
+    case ['tsp', 'Tbsp', 'oz'].includes(string):
+      return string;
+    default:
+      return `${string}s`;
+  }
+}
+
+// Convert decimal remainders to fractions
 export function fractify(double) {
   const whole = Math.floor(double);
   const remainder = double - whole;
@@ -26,4 +39,9 @@ export function fractify(double) {
     default:
       return { whole, fraction: remainder.toFixed(2) };
   }
+}
+// Capitalize first letter of string
+export function capitalize(string) {
+  if (!string) return '';
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }

@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --color-background: #F8F7F4;
+  --color-primary: #2F3E46;
+  --color-accent: #84A98C;
+  --color-accent2: #E5989B;
+  --color-text: #1B1B1B;
+  --color-card: #FFFFFF;
+}
 
 
 :root {
@@ -15,5 +23,7 @@ body {
 }
 
 @layer components {
-	
+	.recipe-pill {
+		@apply rounded-full border py-1 px-3 bg-accent hover:bg-accent2 border-accent text-white
+	}
 }
