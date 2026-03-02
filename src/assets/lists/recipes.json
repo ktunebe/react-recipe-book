@@ -3,7 +3,7 @@
     "id": "chicken-and-noodles",
     "title": "Chicken and Noodles",
     "category": "soup",
-    "imageUrl": "",
+    "imagePath": "/recipe-images/chicken-and-noodles.jpg",
     "servings": 4,
     "tags": [],
     "ingredientList": [
@@ -37,7 +37,7 @@
     "id": "al-bundys-chili",
     "title": "Al Bundy's Chili",
     "category": "soup",
-    "imageUrl": "",
+    "imagePath": "/recipe-images/al-bundy-chili.jpg",
     "servings": 4,
     "tags": ["spicy"],
     "ingredientList": [
@@ -73,10 +73,9 @@
     "id": "broccoli-cheddar-soup",
     "title": "Broccoli Cheddar Soup",
     "category": "soup",
-    "imageUrl": "",
+    "imagePath": "/recipe-images/broccoli-cheddar-soup.jpg",
     "servings": 4,
     "tags": [],
-    "imagePath": "/images/recipes/broccoli-cheddar-soup.jpg",
     "ingredientList": [
       { "quantity": 5, "unit": "Tbsp", "ref": "butter", "note": "unsalted" },
       { "quantity": 1, "unit": null, "ref": "yellow-onion", "note": "medium", "prep": "diced" },
@@ -111,7 +110,7 @@
   "id": "corn-pudding",
   "title": "Corn Pudding",
   "category": "side",
-  "imageUrl": "",
+  "imagePath": "/recipe-images/corn-pudding.jpg",
   "servings": 8,
   "tags": [],
   "ingredientList": [
@@ -135,7 +134,7 @@
   "id": "corn-and-zucchini-saute",
   "title": "Corn and Zucchini Sauté",
   "category": "side",
-  "imageUrl": "",
+  "imagePath": "/recipe-images/corn-zucchini-sautee.jpg",
   "servings": 4,
   "tags": [],
   "ingredientList": [
@@ -161,8 +160,8 @@
   "id": "lemony-chicken-spaghetti",
   "title": "Lemony Chicken Spaghetti",
   "category": "entree",
-  "imageUrl": "",
-  "servings": null,
+  "imagePath": "/recipe-images/lemony-chicken.jpg",
+  "servings": 2,
   "tags": ["pasta", "chicken", "lemon", "weeknight", "italian"],
   "ingredientList": [
     { "quantity": 1, "unit": null, "ref": "zucchini" },
@@ -201,8 +200,8 @@
   "id": "pan-fried-pork-chops",
   "title": "Pan-Fried Pork Chops",
   "category": "entree",
-  "imageUrl": "../assets/Pictures/IMG_2549.jpeg",
-  "servings": null,
+  "imagePath": "/recipe-images/pork-chops.jpg",
+  "servings": 2,
   "tags": ["pork", "skillet", "quick", "weeknight", "high-protein"],
   "ingredientList": [
     { "quantity": 2, "unit": null, "ref": "pork-chops", "note": "bone-in; about 1 inch thick each" },
@@ -222,10 +221,10 @@
 },
 {
   "id": "quinoa-bowls",
-  "title": "Quinoa Bowls",
+  "title": "Chicken/Shrimp Quinoa Bowls",
   "category": "salad",
-  "imageUrl": "../assets/Pictures/IMG_2549.jpeg",
-  "servings": null,
+  "imagePath": "/recipe-images/quinoa-bowl.jpg",
+  "servings": 2,
   "tags": ["healthy", "high-protein", "bowl", "meal-prep", "gluten-free"],
   "ingredientList": [
     { "quantity": 0.5, "unit": "cup", "ref": "quinoa" },
@@ -257,8 +256,8 @@
   "id": "chicken-ramen",
   "title": "Chicken Ramen",
   "category": "entree",
-  "imageUrl": "../assets/Pictures/chicken-ramen.jpeg",
-  "servings": null,
+  "imagePath": "/recipe-images/chicken-ramen.jpg",
+  "servings": 2,
   "tags": ["ramen", "noodles", "chicken", "asian-inspired", "spicy", "comfort-food"],
   "ingredientList": [
     { "quantity": 4, "unit": "clove", "ref": "garlic", "prep": "minced" },
@@ -294,8 +293,8 @@
   "id": "balsamic-parmesan-risotto",
   "title": "Balsamic Parmesan Risotto",
   "category": "entree",
-  "imageUrl": "../assets/Pictures/IMG_2549.jpeg",
-  "servings": null,
+  "imagePath": "/recipe-images/balsamic-parm-risotto.jpg",
+  "servings": 2,
   "tags": ["risotto", "vegetarian", "italian-inspired", "comfort-food", "rice"],
   "ingredientList": [
     { "quantity": 2, "unit": null, "ref": "scallion", "note": "sliced; whites and greens separated" },
@@ -325,8 +324,8 @@
   "id": "pub-style-shepherds-pie",
   "title": "Pub-Style Shepherd's Pie",
   "category": "entree",
-  "imageUrl": "../assets/Pictures/sheperds-pie.jpeg",
-  "servings": null,
+  "imagePath": "/recipe-images/sheperds-pie.jpg",
+  "servings": 2,
   "tags": ["comfort-food", "beef", "casserole", "weeknight", "baked"],
   "ingredientList": [
     { "quantity": 1, "unit": "lb", "ref": "yukon-gold-potatoes" },
@@ -364,8 +363,8 @@
   "id": "tortellini-soup",
   "title": "Tortellini Soup",
   "category": "soup",
-  "imageUrl": "../assets/Pictures/tortellini-soup.jpeg",
-  "servings": null,
+  "imagePath": "/recipe-images/tortellini-soup.jpg",
+  "servings": 4,
   "tags": ["soup", "vegetarian", "pasta", "comfort-food", "italian-inspired"],
   "ingredientList": [
     { "quantity": 1, "unit": "medium", "ref": "yellow-onion", "prep": "diced" },
@@ -395,8 +394,8 @@
   "id": "vegetable-beef-soup",
   "title": "Vegetable Beef Soup",
   "category": "soup",
-  "imageUrl": "../assets/Pictures/IMG_2549.jpeg",
-  "servings": null,
+  "imagePath": "/recipe-images/beef-vegetable-soup.jpg",
+  "servings": 4,
   "tags": ["soup", "beef", "comfort-food", "one-pot", "meal-prep"],
   "ingredientList": [
     { "quantity": 1, "unit": null, "ref": "white-onion", "prep": "chopped" },

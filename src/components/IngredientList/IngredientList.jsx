@@ -20,9 +20,9 @@ function IngredientList({currentIngredients, recipeMultiplier}) {
 
 
   return (
-     <div className='w-full md:w-1/2 px-4'>
-        <h3 className='text-center border-b'>Ingredients</h3>
-        <ol className='py-4'>
+     <div className='w-full md:w-1/2 px-4 bg-accent/20 rounded-xl'>
+        <h3 className='text-center border-b text-xl mt-3'>INGREDIENTS</h3>
+        <ol className='py-4 '>
           {currentIngredients.map(ingredient => (
             <IngredientListItem 
               key={ingredient.ref} 
