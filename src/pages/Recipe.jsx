@@ -22,11 +22,11 @@ export default function Recipe() {
   <div className="flex flex-col mx-auto">
     <h1 className='text-4xl'>{recipe.title}</h1>
     <img src='recipe-images/default.jpg' alt={`Image of ${recipe.title}`} className='w-full h-96 rounded-4xl object-cover mt-10 mb-8' />
-    <div className='flex w-full divide-x-2'>
+    <div className='flex flex-col md:flex-row w-full divide-y-2 md:divide-y-0 md:divide-x-2'>
       <IngredientList currentIngredients={currentIngredients} recipeMultiplier={recipeMultiplier} />
-      <div className='w-1/2'>
+      <div className='w-full md:w-1/2 px-4'>
         <h3 className='text-center'>Directions</h3>
-        <ol className='list-inside list-decimal ml-6'>
+        <ol className='list-inside list-decimal'>
           {recipe.instructions.map((instruction, index) => (
             <li 
             key={index}
