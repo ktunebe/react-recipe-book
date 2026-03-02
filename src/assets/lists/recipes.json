@@ -3,6 +3,7 @@
     "id": "chicken-and-noodles",
     "title": "Chicken and Noodles",
     "category": "soup",
+    "imageUrl": "",
     "servings": 4,
     "tags": [],
     "ingredientList": [
@@ -36,6 +37,7 @@
     "id": "al-bundys-chili",
     "title": "Al Bundy's Chili",
     "category": "soup",
+    "imageUrl": "",
     "servings": 4,
     "tags": ["spicy"],
     "ingredientList": [
@@ -71,6 +73,7 @@
     "id": "broccoli-cheddar-soup",
     "title": "Broccoli Cheddar Soup",
     "category": "soup",
+    "imageUrl": "",
     "servings": 4,
     "tags": [],
     "imagePath": "/images/recipes/broccoli-cheddar-soup.jpg",
@@ -103,5 +106,332 @@
       "While soup simmers, grate the cheese. After simmering 20-25 minutes, add most of the cheese, reserving a small amount for garnishing if desired. Stir in cheese until melted and fully incorporated, about 1 minute.",
       "Transfer to bowls and serve."
     ]
-  }
+  },
+  {
+  "id": "corn-pudding",
+  "title": "Corn Pudding",
+  "category": "side",
+  "imageUrl": "",
+  "servings": 8,
+  "tags": [],
+  "ingredientList": [
+    { "quantity": 2, "unit": "15 oz can", "ref": "whole-kernel-corn" },
+    { "quantity": 2, "unit": "15 oz can", "ref": "cream-style-corn" },
+    { "quantity": 2, "unit": "stick", "ref": "butter" },
+    { "quantity": 2, "unit": "8 oz package", "ref": "sour-cream" },
+    { "quantity": 2, "unit": "box", "ref": "cornbread-mix", "note": "Jiffy" }
+  ],
+  "instructions": [
+    "Preheat oven to 350°.",
+    "In a large bowl, melt butter.",
+    "Drain corn and mix with butter and sour cream.",
+    "Sprinkle in cornbread mix and mix well.",
+    "Transfer to large baking dish.",
+    "Bake for 1 hour.",
+    "Remove from oven when you can stick a knife into pudding and it comes out clean."
+  ]
+},
+{
+  "id": "corn-and-zucchini-saute",
+  "title": "Corn and Zucchini Sauté",
+  "category": "side",
+  "imageUrl": "",
+  "servings": 4,
+  "tags": [],
+  "ingredientList": [
+    { "quantity": 2, "unit": "15 oz can", "ref": "whole-kernel-corn" },
+    { "quantity": 1, "unit": "medium", "ref": "zucchini" },
+    { "quantity": 1.5, "unit": "tsp", "ref": "olive-oil" },
+    { "quantity": 2, "unit": "clove", "ref": "garlic", "prep": "minced" },
+    { "quantity": 1, "unit": "tsp", "ref": "basil", "prep": "finely chopped" },
+    { "quantity": 0.5, "unit": "tsp", "ref": "white-wine-vinegar" },
+    { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
+    { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" }
+  ],
+  "instructions": [
+    "Drain corn. Halve zucchini lengthwise and slice into 1/4 inch pieces. Mince garlic.",
+    "In a large pan, heat olive oil over medium-high heat.",
+    "Add zucchini and garlic and cook 1-2 minutes until zucchini is bright green.",
+    "Add corn and season with salt and pepper.",
+    "Cook, tossing, until corn is heated through, 2-3 minutes.",
+    "Remove from heat, stir in basil and white-wine vinegar and serve."
+  ]
+},
+{
+  "id": "lemony-chicken-spaghetti",
+  "title": "Lemony Chicken Spaghetti",
+  "category": "entree",
+  "imageUrl": "",
+  "servings": null,
+  "tags": ["pasta", "chicken", "lemon", "weeknight", "italian"],
+  "ingredientList": [
+    { "quantity": 1, "unit": null, "ref": "zucchini" },
+    { "quantity": 1, "unit": "clove", "ref": "garlic", "prep": "minced" },
+    { "quantity": 1, "unit": null, "ref": "lemon" },
+    { "quantity": 6, "unit": "oz", "ref": "spaghetti" },
+    { "quantity": 10, "unit": "oz", "ref": "chicken-breast", "note": "cutlets; sliced into strips" },
+    { "quantity": 2, "unit": "tsp", "ref": "olive-oil" },
+    { "quantity": 2, "unit": "tsp", "ref": "cooking-oil" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "butter" },
+    { "quantity": 1, "unit": "cube", "ref": "chicken-stock-concentrate" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "sour-cream" },
+    { "quantity": 1, "unit": "tsp", "ref": "red-pepper-flakes" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "italian-seasoning" },
+    { "quantity": 0.25, "unit": "cup", "ref": "parmesan-cheese" },
+    { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
+    { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" }
+  ],
+  "instructions": [
+    "Halve zucchini lengthwise and cut into 1/2 inch pieces. Quarter and zest lemon. Mince garlic. Slice chicken into strips or bite sized pieces.",
+    "Bring a large pot of water to a boil.",
+    "Add spaghetti and cook 9-11 minutes.",
+    "Reserve 1 cup pasta cooking water, then drain.",
+    "While pasta cooks, heat olive oil in a large pan over medium-high, add zucchini and cook until zucchini is browned and softened, 4-6 minutes. Season with salt and pepper.",
+    "Transfer zucchini to a plate and wipe out pan.",
+    "Meanwhile, season chicken all over with Italian seasoning, salt and pepper.",
+    "Once zucchini is done, heat a drizzle of cooking oil in same pan over medium-high heat. Add chicken and cook until browned and cooked through.",
+    "Heat a drizzle of olive oil in pot used for spaghetti over medium-high heat. Add garlic, half the lemon zest and a pinch of chili flakes. Cook, stirring until fragrant, about 30 seconds.",
+    "Stir in 1/2 cup reserved pasta cooking water, stock concentrate, and juice from two lemon wedges. Simmer until thickened, 1-2 minutes. Turn off heat.",
+    "Add drained spaghetti, zucchini, sour cream, and butter to pot with sauce, toss to coat.",
+    "Add half the Parmesan and season with salt and pepper.",
+    "Divide pasta between bowls, top with chicken, remaining Parmesan, remaining lemon zest, and a pinch of chili flakes. Serve with remaining lemon wedges on the side."
+  ]
+},
+{
+  "id": "pan-fried-pork-chops",
+  "title": "Pan-Fried Pork Chops",
+  "category": "entree",
+  "imageUrl": "../assets/Pictures/IMG_2549.jpeg",
+  "servings": null,
+  "tags": ["pork", "skillet", "quick", "weeknight", "high-protein"],
+  "ingredientList": [
+    { "quantity": 2, "unit": null, "ref": "pork-chops", "note": "bone-in; about 1 inch thick each" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "butter", "note": "unsalted" },
+    { "quantity": null, "unit": null, "ref": "thyme", "note": "fresh sprigs" },
+    { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
+    { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" }
+  ],
+  "instructions": [
+    "Preheat oven to 400°.",
+    "Season pork chops with salt and pepper.",
+    "Melt butter in an oven-proof skillet over medium-high heat.",
+    "Add pork chops and a few sprigs of thyme and sear until chops are golden, about 3-4 minutes per side.",
+    "Transfer pork chops in skillet to oven and cook through, about 12 minutes (pork is safe at 145°).",
+    "Serve immediately."
+  ]
+},
+{
+  "id": "quinoa-bowls",
+  "title": "Quinoa Bowls",
+  "category": "salad",
+  "imageUrl": "../assets/Pictures/IMG_2549.jpeg",
+  "servings": null,
+  "tags": ["healthy", "high-protein", "bowl", "meal-prep", "gluten-free"],
+  "ingredientList": [
+    { "quantity": 0.5, "unit": "cup", "ref": "quinoa" },
+    { "quantity": 1, "unit": "head", "ref": "romaine-lettuce", "note": "or lettuce of choice; shredded" },
+    { "quantity": 2, "unit": "cup", "ref": "broccoli", "note": "florets" },
+    { "quantity": 1, "unit": "lb", "ref": "chicken-breast", "note": "boneless skinless; or frozen cooked shrimp" },
+    { "quantity": 1, "unit": null, "ref": "avocado" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "olive-oil" },
+    { "quantity": 1, "unit": "tsp", "ref": "paprika" },
+    { "quantity": 1, "unit": "tsp", "ref": "garlic-powder" },
+    { "quantity": 0.5, "unit": "tsp", "ref": "onion-powder" },
+    { "quantity": 0.5, "unit": "tsp", "ref": "oregano" },
+    { "quantity": 0.5, "unit": "tsp", "ref": "thyme" },
+    { "quantity": 0.5, "unit": "tsp", "ref": "pepper", "note": "black pepper" },
+    { "quantity": 0.25, "unit": "tsp", "ref": "cayenne-pepper" }
+  ],
+  "instructions": [
+    "In a small pot, bring 1 cup water to a boil.",
+    "Add quinoa, reduce heat to low, and simmer until water is absorbed.",
+    "While water comes to a boil, cut chicken into chunks or thaw and de-tail shrimp.",
+    "In a large bowl, mix olive oil, garlic powder, onion powder, oregano, thyme, black pepper and cayenne pepper.",
+    "Add chicken or shrimp to mixture and stir to coat.",
+    "In a medium pan, cook over medium heat until chicken is cooked through or shrimp is heated through.",
+    "While cooking, shred lettuce and place into bowls. Halve and slice avocado. Place avocado and broccoli florets over lettuce.",
+    "Once cooked, top bowls with quinoa and chicken or shrimp and serve with dressing of choice."
+  ]
+},
+{
+  "id": "chicken-ramen",
+  "title": "Chicken Ramen",
+  "category": "entree",
+  "imageUrl": "../assets/Pictures/chicken-ramen.jpeg",
+  "servings": null,
+  "tags": ["ramen", "noodles", "chicken", "asian-inspired", "spicy", "comfort-food"],
+  "ingredientList": [
+    { "quantity": 4, "unit": "clove", "ref": "garlic", "prep": "minced" },
+    { "quantity": 1, "unit": "thumb", "ref": "ginger", "prep": "minced" },
+    { "quantity": 2, "unit": null, "ref": "scallion", "note": "sliced; whites and greens separated" },
+    { "quantity": 6, "unit": "oz", "ref": "mushrooms", "note": "button or white; sliced" },
+    { "quantity": 10, "unit": "oz", "ref": "chicken-breast", "note": "cutlets; sliced into strips" },
+    { "quantity": 6, "unit": "oz", "ref": "ramen-noodles" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "sesame-seeds" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "sesame-oil" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "soy-sauce" },
+    { "quantity": 1, "unit": "tsp", "ref": "red-pepper-flakes" },
+    { "quantity": 2, "unit": "cube", "ref": "chicken-bouillon-cube" },
+    { "quantity": 2, "unit": "cube", "ref": "beef-bouillon-cube" },
+    { "quantity": null, "unit": null, "ref": "crispy-fried-onions", "note": "for topping" },
+    { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
+    { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" }
+  ],
+  "instructions": [
+    "Bring a large pot of water to a boil.",
+    "Peel and mince garlic and ginger. Thinly slice mushrooms. Thinly slice scallions and separate whites from greens.",
+    "Slice chicken into strips or bite-sized pieces.",
+    "In a small bowl, combine sesame seeds, half the garlic, half the sesame oil, a drizzle of cooking oil, chili flakes, and a big pinch of salt. Microwave for 30 seconds and set aside.",
+    "Once water is boiling, add ramen noodles and cook according to package. Drain, then toss noodles with a drizzle of cooking oil. Set aside.",
+    "Heat a drizzle of cooking oil in pot used for noodles over medium-high heat. Add scallion whites, ginger and remaining garlic and cook for 30 seconds.",
+    "Stir in 4 cups water, bouillon cubes, and soy sauce. Bring to a boil, then cover and reduce heat to low.",
+    "Meanwhile, heat cooking oil in a large pan over medium-high heat. Add chicken and cook until browned and cooked through. Drizzle with remaining sesame oil and mix to coat.",
+    "Add mushrooms and a pinch of salt to pan and cook until browned and softened, about 4-5 minutes.",
+    "Divide ramen noodles between bowls. Pour broth over noodles and stir in desired amount of chili-garlic oil. Top with chicken, mushrooms, scallion greens and crispy onions and serve."
+  ]
+},
+{
+  "id": "balsamic-parmesan-risotto",
+  "title": "Balsamic Parmesan Risotto",
+  "category": "entree",
+  "imageUrl": "../assets/Pictures/IMG_2549.jpeg",
+  "servings": null,
+  "tags": ["risotto", "vegetarian", "italian-inspired", "comfort-food", "rice"],
+  "ingredientList": [
+    { "quantity": 2, "unit": null, "ref": "scallion", "note": "sliced; whites and greens separated" },
+    { "quantity": 1, "unit": null, "ref": "zucchini", "prep": "diced" },
+    { "quantity": 4, "unit": "oz", "ref": "grape-tomatoes", "prep": "halved" },
+    { "quantity": 0.75, "unit": "cup", "ref": "arborio-rice" },
+    { "quantity": 4, "unit": "cup", "ref": "vegetable-stock" },
+    { "quantity": 2, "unit": "tsp", "ref": "basil-oil", "note": "to taste (2–3 tsp)" },
+    { "quantity": 2, "unit": "tsp", "ref": "balsamic-vinegar", "note": "to taste (2–3 tsp)" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "tuscan-heat-spice" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "butter" },
+    { "quantity": 0.5, "unit": "cup", "ref": "parmesan-cheese", "note": "grated" },
+    { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
+    { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" }
+  ],
+  "instructions": [
+    "Trim and thinly slice scallions, separating whites from greens. Halve tomatoes. Trim and dice zucchini into 1/2-inch pieces.",
+    "Heat a drizzle of cooking oil into a large pan over medium heat. Add scallion whites and cook until softened, about 1 minute.",
+    "Add rice and 2 tsp Tuscan Heat Spice. Stir until rice is translucent, 1–2 minutes.",
+    "Add 1/2 cup of stock, stirring until liquid has mostly absorbed. Repeat 1/2 cup at a time until rice is al dente and mixture is creamy, 25–30 minutes.",
+    "Once rice has cooked about 20 minutes, heat 1 tsp basil oil in a separate pan over medium-high heat. Add zucchini and 1 tsp Tuscan Heat Spice. Cook until tender and lightly browned, 4–6 minutes.",
+    "Add tomatoes and balsamic vinegar to pan with zucchini. Cook until tomatoes have softened, 2–3 minutes. Season with salt and pepper and turn off heat.",
+    "Once risotto is done, stir in butter and half the Parmesan. Drizzle with basil oil to taste and serve topped with remaining Parmesan and vegetables."
+  ]
+},
+{
+  "id": "pub-style-shepherds-pie",
+  "title": "Pub-Style Shepherd's Pie",
+  "category": "entree",
+  "imageUrl": "../assets/Pictures/sheperds-pie.jpeg",
+  "servings": null,
+  "tags": ["comfort-food", "beef", "casserole", "weeknight", "baked"],
+  "ingredientList": [
+    { "quantity": 1, "unit": "lb", "ref": "yukon-gold-potatoes" },
+    { "quantity": 2, "unit": null, "ref": "carrot", "note": "large" },
+    { "quantity": 2, "unit": "stalk", "ref": "celery" },
+    { "quantity": 1, "unit": null, "ref": "yellow-onion" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "butter" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "all-purpose-flour" },
+    { "quantity": 1, "unit": "tsp", "ref": "thyme" },
+    { "quantity": 2, "unit": "tsp", "ref": "garlic-powder" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "sour-cream" },
+    { "quantity": 1.5, "unit": "oz", "ref": "tomato-paste" },
+    { "quantity": 10, "unit": "oz", "ref": "ground-beef" },
+    { "quantity": 2, "unit": "cube", "ref": "beef-bouillon-cube", "note": "dissolved in 3/4 cup hot water" },
+    { "quantity": 0.5, "unit": "cup", "ref": "white-cheddar-cheese", "note": "grated or shredded" },
+    { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
+    { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" }
+  ],
+  "instructions": [
+    "Heat broiler to high.",
+    "Dice potatoes into 1/2-inch pieces. Trim, peel and halve carrots lengthwise, then slice into 1/4 inch slices. Finely dice celery. Peel and finely chop onion.",
+    "Place potatoes in a medium pot with enough water to cover by 2 inches. Bring to a boil and cook until tender, 15-20 minutes. Drain and return potatoes to pot.",
+    "Mash potatoes with sour cream, butter and 1/2 tsp thyme until smooth, adding splashes of water as needed. Season with salt and pepper.",
+    "While potatoes cook, heat a drizzle of oil in a medium oven-proof pan over medium-high heat. Add carrot, season with salt and pepper and cook 2-3 minutes.",
+    "Add celery, onion, and a large drizzle of oil to pan with carrots, season with salt and pepper. Cook, stirring, until veggies are tender, 5-7 minutes.",
+    "Stir in garlic powder and 1/2 tsp thyme and cook until fragrant, about 30 seconds.",
+    "Add beef to pan with veggies and season with salt and pepper. Cook, breaking up meat into pieces, until browned and cooked through, about 4-6 minutes.",
+    "Add tomato paste and flour and cook, stirring, until thoroughly combined, 1 minute.",
+    "Gradually pour in bouillon-water mixture and bring to a boil. Cook until mixture is very thick, 1-2 minutes. Turn off heat.",
+    "Top beef filling with an even layer of mashed potatoes, leaving a gap around the edge of the pan. Sprinkle evenly with cheddar.",
+    "Broil until browned, 3-4 minutes. Serve directly from pan."
+  ]
+},
+{
+  "id": "tortellini-soup",
+  "title": "Tortellini Soup",
+  "category": "soup",
+  "imageUrl": "../assets/Pictures/tortellini-soup.jpeg",
+  "servings": null,
+  "tags": ["soup", "vegetarian", "pasta", "comfort-food", "italian-inspired"],
+  "ingredientList": [
+    { "quantity": 1, "unit": "medium", "ref": "yellow-onion", "prep": "diced" },
+    { "quantity": 2, "unit": null, "ref": "carrot", "note": "large; sliced" },
+    { "quantity": 2, "unit": "clove", "ref": "garlic", "prep": "minced" },
+    { "quantity": 28, "unit": "oz can", "ref": "diced-tomatoes" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "olive-oil" },
+    { "quantity": 2, "unit": "tsp", "ref": "balsamic-vinegar" },
+    { "quantity": 3.5, "unit": "cup", "ref": "vegetable-stock" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "thyme", "note": "fresh leaves" },
+    { "quantity": 0.5, "unit": "tsp", "ref": "salt", "note": "plus more to taste" },
+    { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" },
+    { "quantity": 0.5, "unit": "tsp", "ref": "red-pepper-flakes" },
+    { "quantity": 10, "unit": "oz", "ref": "cheese-tortellini", "note": "9–12 oz" }
+  ],
+  "instructions": [
+    "Peel and slice carrots into 1/4 inch pieces. Dice onion. Mince garlic.",
+    "Heat the olive oil in a large pot over medium heat. Add onion, carrots, salt and a few grinds of pepper. Cook, stirring, until vegetables begin to soften, about 8 minutes.",
+    "Add balsamic vinegar, garlic, tomatoes, stock, thyme and red pepper flakes. Cover and simmer for 30 minutes.",
+    "Meanwhile, bring water in a separate pot to a boil. Cook the tortellini according to the package directions until al dente.",
+    "Once soup has simmered for 30 minutes, transfer to a blender and blend until it is a creamy consistency. Return soup to pot.",
+    "Add tortellini to soup and simmer for 2 more minutes, breaking up any shells that are stuck together.",
+    "Season to taste with more salt and pepper and serve."
+  ]
+},
+{
+  "id": "vegetable-beef-soup",
+  "title": "Vegetable Beef Soup",
+  "category": "soup",
+  "imageUrl": "../assets/Pictures/IMG_2549.jpeg",
+  "servings": null,
+  "tags": ["soup", "beef", "comfort-food", "one-pot", "meal-prep"],
+  "ingredientList": [
+    { "quantity": 1, "unit": null, "ref": "white-onion", "prep": "chopped" },
+    { "quantity": 2, "unit": "stalk", "ref": "celery", "prep": "chopped" },
+    { "quantity": 3, "unit": null, "ref": "carrot", "note": "large; sliced" },
+    { "quantity": 2, "unit": null, "ref": "potatoes", "note": "large; cubed" },
+    { "quantity": 3, "unit": "clove", "ref": "garlic", "prep": "minced" },
+    { "quantity": 1, "unit": "lb", "ref": "stewing-beef", "note": "or chuck steak; cut into cubes" },
+    { "quantity": 3, "unit": "cup", "ref": "beef-stock", "note": "low sodium" },
+    { "quantity": 0.25, "unit": "cup", "ref": "red-wine-vinegar" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "tomato-paste" },
+    { "quantity": 0.25, "unit": "cup", "ref": "all-purpose-flour", "note": "4 Tbsp" },
+    { "quantity": 1.5, "unit": "Tbsp", "ref": "olive-oil" },
+    { "quantity": 2, "unit": null, "ref": "bay-leaves" },
+    { "quantity": 1, "unit": "tsp", "ref": "thyme" },
+    { "quantity": 0.5, "unit": "tsp", "ref": "salt" },
+    { "quantity": 0.5, "unit": "tsp", "ref": "pepper" },
+
+    { "quantity": 1, "unit": "Tbsp", "ref": "butter", "note": "optional: buttery mushrooms" },
+    { "quantity": 6, "unit": "oz", "ref": "mushrooms", "prep": "sliced", "note": "optional: buttery mushrooms" }
+  ],
+  "instructions": [
+    "Peel and cut potatoes into 1/2-inch cubes. Peel and slice carrots into 1/4-inch slices. Finely chop onion and celery. Mince garlic.",
+    "Heat olive oil in a large pot over high heat.",
+    "Pat beef dry with paper towels and sprinkle with salt and pepper.",
+    "Brown beef aggressively, then remove beef and set aside.",
+    "Add garlic and onion and cook for 2 minutes.",
+    "Add carrots and celery and cook 2 more minutes.",
+    "Stir in flour, then slowly pour in beef broth while constantly stirring.",
+    "Add red wine vinegar, water, tomato paste, bay leaves and thyme and stir well.",
+    "Add the beef back into the pot.",
+    "Cover, reduce heat to medium-low and simmer for 1 hour 15 minutes.",
+    "Add potatoes and simmer for 20 more minutes uncovered. Add cooked mushrooms (optional) in the last 5 minutes.",
+    "Season to taste with more salt and pepper and serve.",
+    "Optional: Buttery mushrooms — Melt butter in a medium skillet over medium-high heat. Add mushrooms and cook for about 5 minutes until browned. Season with salt and pepper."
+  ]
+}
 ]

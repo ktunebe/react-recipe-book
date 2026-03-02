@@ -150,5 +150,165 @@
   "jalapeno": {
     "name": "jalapeno",
     "description": "Jalapeno is a medium-sized chili pepper with a moderate level of heat. It is commonly used in Mexican cuisine to add spice to dishes."
+  },
+    "whole-kernel-corn": {
+    "name": "whole kernel corn",
+    "description": "Whole kernel corn consists of sweet corn kernels that have been removed from the cob. It is commonly canned or frozen and used in a variety of dishes."
+  },
+  "cream-style-corn": {
+    "name": "cream style corn",
+    "description": "Cream style corn is a canned corn product that includes both whole kernels and a creamy corn puree, giving it a rich texture and sweet flavor."
+  },
+  "sour-cream": {
+    "name": "sour cream",
+    "description": "Sour cream is a tangy dairy product made by fermenting cream with lactic acid bacteria. It is commonly used in baking, sauces, and as a topping."
+  },
+  "cornbread-mix": {
+    "name": "cornbread mix",
+    "description": "Cornbread mix is a pre-made blend of cornmeal, flour, and leavening agents used to quickly prepare cornbread and similar baked dishes."
+  },
+    "zucchini": {
+    "name": "zucchini",
+    "description": "Zucchini is a mild, tender summer squash commonly sautéed, grilled, or added to a variety of savory dishes."
+  },
+  "basil": {
+    "name": "basil",
+    "description": "Basil is a fragrant herb with a slightly sweet, peppery flavor. It is commonly used in Italian and Mediterranean cuisine."
+  },
+  "white-wine-vinegar": {
+    "name": "white wine vinegar",
+    "description": "White wine vinegar is a light, tangy vinegar made from fermented white wine. It is commonly used in dressings, marinades, and sauces."
+  },
+    "lemon": {
+    "name": "lemon",
+    "description": "Lemon is a bright, acidic citrus fruit commonly used to add freshness and acidity to both savory and sweet dishes."
+  },
+  "spaghetti": {
+    "name": "spaghetti",
+    "description": "Spaghetti is a long, thin pasta commonly used in Italian cuisine and served with a variety of sauces."
+  },
+  "cooking-oil": {
+    "name": "cooking oil",
+    "description": "Cooking oil is a neutral oil used for sautéing, frying, and general cooking purposes."
+  },
+  "chicken-stock-concentrate": {
+    "name": "chicken stock concentrate",
+    "description": "Chicken stock concentrate is a highly concentrated seasoning made from chicken stock, used to add rich flavor to sauces and dishes."
+  },
+  "red-pepper-flakes": {
+    "name": "red pepper flakes",
+    "description": "Red pepper flakes are dried and crushed chili peppers used to add heat and spice to dishes."
+  },
+  "italian-seasoning": {
+    "name": "italian seasoning",
+    "description": "Italian seasoning is a blend of dried herbs such as oregano, basil, thyme, and rosemary commonly used in Italian-inspired cooking."
+  },
+  "parmesan-cheese": {
+    "name": "parmesan cheese",
+    "description": "Parmesan cheese is a hard, aged cheese with a sharp, nutty flavor commonly used grated over pasta and other dishes."
+  },
+    "pork-chops": {
+    "name": "pork chops",
+    "description": "Pork chops are cuts of pork from the loin. They can be bone-in or boneless and are commonly pan-seared, grilled, or baked."
+  },
+    "quinoa": {
+    "name": "quinoa",
+    "description": "Quinoa is a nutritious seed often cooked like a grain. It is high in protein and fiber and commonly used in bowls, salads, and side dishes."
+  },
+  "avocado": {
+    "name": "avocado",
+    "description": "Avocado is a creamy fruit rich in healthy fats. It is commonly sliced, mashed, or diced and used in salads, bowls, and spreads."
+  },
+    "ginger": {
+    "name": "ginger",
+    "description": "Ginger is a fragrant root with a warm, slightly spicy flavor commonly used in Asian and savory dishes."
+  },
+  "mushrooms": {
+    "name": "mushrooms",
+    "description": "Mushrooms are edible fungi with a savory, umami flavor commonly used in soups, stir-fries, and sauces."
+  },
+  "ramen-noodles": {
+    "name": "ramen noodles",
+    "description": "Ramen noodles are thin wheat noodles commonly used in Japanese-style soups and stir-fries."
+  },
+  "sesame-seeds": {
+    "name": "sesame seeds",
+    "description": "Sesame seeds are small, nutty-flavored seeds used as a garnish or ingredient in many Asian and Middle Eastern dishes."
+  },
+  "sesame-oil": {
+    "name": "sesame oil",
+    "description": "Sesame oil is a flavorful oil made from sesame seeds, commonly used to add a rich, nutty flavor to Asian dishes."
+  },
+  "chicken-bouillon-cube": {
+    "name": "chicken bouillon cube",
+    "description": "A chicken bouillon cube is a concentrated seasoning cube used to create flavorful chicken broth."
+  },
+  "beef-bouillon-cube": {
+    "name": "beef bouillon cube",
+    "description": "A beef bouillon cube is a concentrated seasoning cube used to create savory beef broth."
+  },
+  "crispy-fried-onions": {
+    "name": "crispy fried onions",
+    "description": "Crispy fried onions are thinly sliced onions that have been fried until golden and crunchy, often used as a topping."
+  },
+    "arborio-rice": {
+    "name": "arborio rice",
+    "description": "Arborio rice is a short-grain Italian rice known for its creamy texture when cooked, commonly used in risotto."
+  },
+  "grape-tomatoes": {
+    "name": "grape tomatoes",
+    "description": "Grape tomatoes are small, sweet tomatoes with a firm texture, often used in salads and cooked dishes."
+  },
+  "balsamic-vinegar": {
+    "name": "balsamic vinegar",
+    "description": "Balsamic vinegar is a dark, slightly sweet vinegar made from grapes, commonly used in dressings, marinades, and glazes."
+  },
+  "basil-oil": {
+    "name": "basil oil",
+    "description": "Basil oil is a flavored oil infused with basil, used to add aromatic herb flavor to dishes."
+  },
+  "tuscan-heat-spice": {
+    "name": "Tuscan Heat Spice",
+    "description": "Tuscan Heat Spice is a seasoning blend with herbs, garlic, and chili flakes that adds Italian-inspired flavor and mild heat."
+  },
+    "yukon-gold-potatoes": {
+    "name": "Yukon Gold potatoes",
+    "description": "Yukon Gold potatoes are medium-starch potatoes with a naturally buttery flavor and creamy texture, great for mashing and roasting."
+  },
+  "celery": {
+    "name": "celery",
+    "description": "Celery is a crunchy, aromatic vegetable commonly used as a base in soups, stews, and sautéed dishes."
+  },
+  "tomato-paste": {
+    "name": "tomato paste",
+    "description": "Tomato paste is a thick, concentrated tomato product used to add rich tomato flavor and deepen sauces, soups, and stews."
+  },
+  "white-cheddar-cheese": {
+    "name": "white cheddar cheese",
+    "description": "White cheddar cheese is a firm, tangy cheese similar to classic cheddar, commonly used shredded or grated in casseroles and sauces."
+  },
+    "diced-tomatoes": {
+    "name": "diced tomatoes",
+    "description": "Diced tomatoes are tomatoes that have been peeled and cut into small chunks, commonly canned and used in soups, sauces, and stews."
+  },
+  "cheese-tortellini": {
+    "name": "cheese tortellini",
+    "description": "Cheese tortellini is a ring-shaped pasta filled with cheese, commonly used in soups and Italian-inspired dishes."
+  },
+    "potatoes": {
+    "name": "potatoes",
+    "description": "Potatoes are a starchy root vegetable commonly used in soups, stews, mashes, and roasted dishes."
+  },
+  "stewing-beef": {
+    "name": "stewing beef",
+    "description": "Stewing beef is a cut of beef suitable for long simmering, often from chuck or round, and is commonly cubed for soups and stews."
+  },
+  "red-wine-vinegar": {
+    "name": "red wine vinegar",
+    "description": "Red wine vinegar is a tangy vinegar made from fermented red wine, commonly used in marinades, dressings, and stews."
+  },
+  "bay-leaves": {
+    "name": "bay leaves",
+    "description": "Bay leaves are aromatic leaves used to add subtle herbal flavor to soups, stews, and sauces; they are typically removed before serving."
   }
 }

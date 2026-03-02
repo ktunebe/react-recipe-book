@@ -25,7 +25,7 @@ function CourseSection({ course, searchTerm }) {
 				{courseRecipes.length}
 			</h2>
 			<hr className="text-accent" />
-			<ul className="flex gap-4 mt-2">
+			<ul className="flex flex-wrap gap-4 mt-2">
 				{filteredRecipes.map((recipe) => (
 					<RecipePill key={recipe.id} href={recipe.id} title={recipe.title} />
 				))}

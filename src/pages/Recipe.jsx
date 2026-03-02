@@ -24,9 +24,9 @@ export default function Recipe() {
   <div className="flex flex-col mx-auto">
     <header className='flex justify-between items-center pt-6 px-6'>
       <h1 className='text-4xl'>{recipe.title}</h1>
-      <Link to='/' className='recipe-pill text-xl'>&larr; Home</Link>
+      <Link to='/' className='recipe-pill md:text-xl'>Home</Link>
     </header>
-    <img src='recipe-images/default.jpg' alt={`Image of ${recipe.title}`} className='w-full h-96 rounded-4xl object-cover mt-10 mb-8' />
+    <img src={recipe.imageUrl || 'recipe-images/default.jpg'}alt={`Image of ${recipe.title}`} className='w-4/5 h-96 rounded-4xl object-cover mt-10 mb-8 mx-auto' />
     <MultiplierDropdown servings={recipe.servings} recipeMultiplier={recipeMultiplier} setRecipeMultiplier={setRecipeMultiplier}/>
     <div className='flex flex-col md:flex-row w-full divide-y-2 md:divide-y-0 md:divide-x-2'>
       <IngredientList currentIngredients={currentIngredients} recipeMultiplier={recipeMultiplier} />
