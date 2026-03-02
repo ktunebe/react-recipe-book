@@ -3,6 +3,7 @@
     "id": "chicken-and-noodles",
     "title": "Chicken and Noodles",
     "category": "soup",
+    "servings": 4,
     "tags": [],
     "ingredientList": [
       { "quantity": 1, "unit": null, "ref": "rotisserie-chicken" },
@@ -35,7 +36,8 @@
     "id": "al-bundys-chili",
     "title": "Al Bundy's Chili",
     "category": "soup",
-    "tags": [],
+    "servings": 4,
+    "tags": ["spicy"],
     "ingredientList": [
       { "quantity": 1, "unit": null, "ref": "white-onion", "prep": "diced" },
       { "quantity": 1, "unit": null, "ref": "green-pepper", "prep": "ribs and seeds removed and diced" },
@@ -69,6 +71,7 @@
     "id": "broccoli-cheddar-soup",
     "title": "Broccoli Cheddar Soup",
     "category": "soup",
+    "servings": 4,
     "tags": [],
     "imagePath": "/images/recipes/broccoli-cheddar-soup.jpg",
     "ingredientList": [

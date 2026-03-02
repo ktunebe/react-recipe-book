@@ -64,8 +64,8 @@ function IngredientListItem({ ingredient, recipeMultiplier, activePopupId, setAc
           {isPopupVisible && anchorRect && (
             <IngredientPopup
               anchorRect={anchorRect}
-              name={instance.name}
-              description={instance.description}
+              ingredientName={instance.name}
+              ingredientDescription={instance.description}
               maxWidthPx={640}
             />
           )}
