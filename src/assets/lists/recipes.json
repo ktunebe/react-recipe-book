@@ -164,9 +164,9 @@
   "servings": 2,
   "tags": ["pasta", "chicken", "italian"],
   "ingredientList": [
-    { "quantity": 1, "unit": null, "ref": "zucchini" },
+    { "quantity": 1, "unit": null, "ref": "zucchini", "prep": "sliced into 1/4 inch pieces" },
     { "quantity": 1, "unit": "clove", "ref": "garlic", "prep": "minced" },
-    { "quantity": 1, "unit": null, "ref": "lemon" },
+    { "quantity": 1, "unit": null, "ref": "lemon", "prep": "halved" },
     { "quantity": 6, "unit": "oz", "ref": "spaghetti" },
     { "quantity": 10, "unit": "oz", "ref": "chicken-breast", "prep": "sliced into strips" },
     { "quantity": 2, "unit": "tsp", "ref": "olive-oil" },
@@ -204,7 +204,7 @@
   "servings": 2,
   "tags": ["pork", "quick"],
   "ingredientList": [
-    { "quantity": 2, "unit": null, "ref": "pork-chops", "note": "bone-in", "prep": "about 1 inch thick each" },
+    { "quantity": 2, "unit": null, "ref": "pork-chop", "note": "bone-in", "prep": "about 1 inch thick each" },
     { "quantity": 2, "unit": "Tbsp", "ref": "butter", "note": "unsalted" },
     { "quantity": 4, "unit": null, "ref": "thyme", "note": "fresh sprigs" },
     { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
@@ -270,8 +270,8 @@
     { "quantity": 1, "unit": "Tbsp", "ref": "sesame-oil" },
     { "quantity": 2, "unit": "Tbsp", "ref": "soy-sauce" },
     { "quantity": 1, "unit": "tsp", "ref": "red-pepper-flakes" },
-    { "quantity": 2, "unit": "cube", "ref": "chicken-bouillon-cube" },
-    { "quantity": 2, "unit": "cube", "ref": "beef-bouillon-cube" },
+    { "quantity": 2, "unit": null, "ref": "chicken-bouillon-cube" },
+    { "quantity": 2, "unit": null, "ref": "beef-bouillon-cube" },
     { "quantity": null, "unit": null, "ref": "crispy-fried-onions", "prep": "for topping" },
     { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
     { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" }
@@ -339,8 +339,8 @@
     { "quantity": 2, "unit": "Tbsp", "ref": "sour-cream" },
     { "quantity": 1.5, "unit": "oz", "ref": "tomato-paste" },
     { "quantity": 10, "unit": "oz", "ref": "ground-beef" },
-    { "quantity": 2, "unit": "cube", "ref": "beef-bouillon-cube", "note": "dissolved in 3/4 cup hot water" },
-    { "quantity": 0.5, "unit": "cup", "ref": "white-cheddar-cheese", "note": "grated or shredded" },
+    { "quantity": 2, "unit": null, "ref": "beef-bouillon-cube", "prep": "dissolved in 3/4 cup hot water" },
+    { "quantity": 0.5, "unit": "cup", "ref": "white-cheddar-cheese", "prep": "grated or shredded" },
     { "quantity": null, "unit": null, "ref": "salt", "prep": "to taste" },
     { "quantity": null, "unit": null, "ref": "pepper", "prep": "to taste" }
   ],
@@ -437,15 +437,15 @@
   "id": "spicy-garlic-shrimp",
   "title": "Spicy Garlic Shrimp",
   "category": "entree",
-  "imagePath": "/recipe-images/spicy-garlic-shrimp.jpg",
+  "imagePath": "",
   "servings": 2,
   "tags": ["seafood", "spicy", "quick", "asian"],
   "ingredientList": [
-    { "quantity": 0.75, "unit": "lb", "ref": "shrimp", "note": "peeled and deveined" },
+    { "quantity": 0.75, "unit": "lb", "ref": "shrimp", "prep": "peeled and deveined" },
     { "quantity": 4, "unit": "clove", "ref": "garlic", "prep": "minced" },
     { "quantity": 1, "unit": "Tbsp", "ref": "soy-sauce" },
     { "quantity": 1, "unit": "Tbsp", "ref": "sesame-oil" },
-    { "quantity": 1, "unit": "tsp", "ref": "chili-flakes" },
+    { "quantity": 1, "unit": "tsp", "ref": "red-pepper-flakes" },
     { "quantity": 1, "unit": "Tbsp", "ref": "olive-oil" },
     { "quantity": 1, "unit": null, "ref": "scallion", "prep": "sliced" }
   ],
@@ -453,7 +453,7 @@
     "Heat olive oil in a skillet over medium-high heat.",
     "Add garlic and cook until fragrant.",
     "Add shrimp and cook 2–3 minutes per side until pink.",
-    "Stir in soy sauce, sesame oil, and chili flakes.",
+    "Stir in soy sauce, sesame oil, and red pepper flakes.",
     "Top with sliced scallions and serve.",
     "This is a temporary recipe"
   ]
@@ -462,7 +462,7 @@
   "id": "quick-chicken-pesto-pasta",
   "title": "Quick Chicken Pesto Pasta",
   "category": "entree",
-  "imagePath": "/recipe-images/chicken-pesto-pasta.jpg",
+  "imagePath": "",
   "servings": 2,
   "tags": ["chicken", "pasta", "italian", "quick"],
   "ingredientList": [
@@ -487,7 +487,7 @@
   "id": "italian-chopped-salad",
   "title": "Italian Chopped Salad",
   "category": "salad",
-  "imagePath": "/recipe-images/italian-chopped-salad.jpg",
+  "imagePath": "",
   "servings": 2,
   "tags": ["italian", "healthy", "quick"],
   "ingredientList": [
@@ -510,7 +510,7 @@
   "id": "spicy-sesame-noodle-salad",
   "title": "Spicy Sesame Noodle Salad",
   "category": "salad",
-  "imagePath": "/recipe-images/sesame-noodle-salad.jpg",
+  "imagePath": "",
   "servings": 2,
   "tags": ["asian", "spicy", "quick"],
   "ingredientList": [
@@ -534,7 +534,7 @@
   "id": "chicken-caesar-salad",
   "title": "Chicken Caesar Salad",
   "category": "salad",
-  "imagePath": "/recipe-images/chicken-caesar-salad.jpg",
+  "imagePath": "",
   "servings": 2,
   "tags": ["chicken", "quick", "healthy"],
   "ingredientList": [
@@ -557,11 +557,11 @@
   "id": "garlic-parmesan-roasted-potatoes",
   "title": "Garlic Parmesan Roasted Potatoes",
   "category": "side",
-  "imagePath": "/recipe-images/roasted-potatoes.jpg",
+  "imagePath": "",
   "servings": 2,
   "tags": ["comfort-food", "quick"],
   "ingredientList": [
-    { "quantity": 1, "unit": "lb", "ref": "potatoes", "prep": "cubed" },
+    { "quantity": 1, "unit": "lb", "ref": "potato", "prep": "cubed" },
     { "quantity": 1, "unit": "Tbsp", "ref": "olive-oil" },
     { "quantity": 2, "unit": "clove", "ref": "garlic", "prep": "minced" },
     { "quantity": 0.25, "unit": "cup", "ref": "parmesan-cheese" },
@@ -581,21 +581,21 @@
   "id": "spicy-garlic-green-beans",
   "title": "Spicy Garlic Green Beans",
   "category": "side",
-  "imagePath": "/recipe-images/spicy-green-beans.jpg",
+  "imagePath": "",
   "servings": 2,
   "tags": ["spicy", "asian", "healthy"],
   "ingredientList": [
     { "quantity": 2, "unit": "cup", "ref": "green-beans" },
     { "quantity": 2, "unit": "clove", "ref": "garlic", "prep": "minced" },
     { "quantity": 1, "unit": "Tbsp", "ref": "soy-sauce" },
-    { "quantity": 1, "unit": "tsp", "ref": "chili-flakes" },
+    { "quantity": 1, "unit": "tsp", "ref": "red-pepper-flakes" },
     { "quantity": 1, "unit": "Tbsp", "ref": "sesame-oil" }
   ],
   "instructions": [
     "Heat sesame oil in a skillet.",
     "Add garlic and cook briefly.",
     "Add green beans and sauté until tender-crisp.",
-    "Stir in soy sauce and chili flakes.",
+    "Stir in soy sauce and red pepper flakes.",
     "Serve warm.",
     "This is a temporary recipe"
   ]
@@ -604,7 +604,7 @@
   "id": "chocolate-mug-cake",
   "title": "Chocolate Mug Cake",
   "category": "dessert",
-  "imagePath": "/recipe-images/chocolate-mug-cake.jpg",
+  "imagePath": "",
   "servings": 1,
   "tags": ["sweet", "quick"],
   "ingredientList": [
@@ -626,7 +626,7 @@
   "id": "cinnamon-apple-crisp",
   "title": "Cinnamon Apple Crisp",
   "category": "dessert",
-  "imagePath": "/recipe-images/apple-crisp.jpg",
+  "imagePath": "",
   "servings": 2,
   "tags": ["sweet", "comfort-food"],
   "ingredientList": [
@@ -649,7 +649,7 @@
   "id": "vanilla-yogurt-berry-parfait",
   "title": "Vanilla Yogurt Berry Parfait",
   "category": "dessert",
-  "imagePath": "/recipe-images/berry-parfait.jpg",
+  "imagePath": "",
   "servings": 2,
   "tags": ["sweet", "healthy", "quick"],
   "ingredientList": [

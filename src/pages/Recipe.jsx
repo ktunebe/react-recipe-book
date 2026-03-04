@@ -28,7 +28,7 @@ export default function Recipe() {
     </header>
     <img src={recipe.imagePath || 'recipe-images/default.jpg'}alt={`Image of ${recipe.title}`} className='w-4/5 h-96 rounded-4xl object-cover mt-10 mb-8 mx-auto' />
     <MultiplierDropdown servings={recipe.servings} recipeMultiplier={recipeMultiplier} setRecipeMultiplier={setRecipeMultiplier}/>
-    <div className='flex flex-col md:flex-row w-full divide-y-2 md:divide-y-0 md:divide-x-2'>
+    <div className='flex flex-col md:flex-row w-full divide-y-2 md:divide-y-0 md:divide-x-2 lg:text-lg'>
       <IngredientList currentIngredients={currentIngredients} recipeMultiplier={recipeMultiplier} />
       <InstructionsList instructions={recipe.instructions} />
     </div>

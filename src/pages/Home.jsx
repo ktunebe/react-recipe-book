@@ -15,7 +15,7 @@ function Home() {
 
 	return (
 		<div>
-			<h1 className="mx-auto text-center text-4xl py-6">My Recipes</h1>
+			<h1 className="mx-auto text-center text-5xl py-8 mb-6">My Recipes</h1>
       <TagSelect activeTag={activeTag} setActiveTag={setActiveTag} />
 			<div className="mx-auto text-center">
 				<label htmlFor="search-input" className="text-lg lg:text-xl">

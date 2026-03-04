@@ -34,7 +34,7 @@ function CourseSection({ course, searchTerm, activeTag }) {
 				{courseRecipes.length}
 			</h2>
 			<hr className="text-accent" />
-			<ul className={`flex flex-wrap gap-4 text-sm sm:text-base mt-2 ${activeTag || searchTerm ? 'justify-start' : 'justify-center'}`}>
+			<ul className={`flex flex-wrap gap-4 px-4 text-sm sm:text-base mt-2 ${activeTag || searchTerm ? 'justify-start' : 'justify-center'}`}>
 				{visibleRecipes.map((recipe) => (
 					<RecipePill key={recipe.id} href={recipe.id} title={recipe.title} />
 				))}
