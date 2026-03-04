@@ -23,8 +23,12 @@ body {
 
 @layer components {
 	.recipe-pill {
-		@apply rounded-full border py-1 px-3 bg-accent hover:bg-accent2 border-accent text-white;
+		@apply rounded-full border py-1 px-3 lg:text-lg bg-accent hover:bg-accent2 border-accent text-white;
 	}
+
+  .tag-pill {
+    @apply rounded-full px-3 py-1 text-xs sm:text-sm lg:text-base shadow-sm transition  focus:outline-none focus:ring-2 focus:ring-[#84A98C]/50 
+  }
 
 	#search-input {
 		@apply rounded-full border py-0.5 px-3 border-accent focus:outline-none focus-visible:ring-1 focus-visible:ring-accent focus-visible:border-accent;

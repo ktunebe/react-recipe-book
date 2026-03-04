@@ -5,7 +5,7 @@
     "category": "soup",
     "imagePath": "/recipe-images/chicken-and-noodles.jpg",
     "servings": 4,
-    "tags": [],
+    "tags": ["comfort-food", "chicken"],
     "ingredientList": [
       { "quantity": 1, "unit": null, "ref": "rotisserie-chicken" },
       { "quantity": 4, "unit": "cup", "ref": "chicken-stock", "note": "low sodium" },
@@ -39,7 +39,7 @@
     "category": "soup",
     "imagePath": "/recipe-images/al-bundy-chili.jpg",
     "servings": 4,
-    "tags": ["spicy"],
+    "tags": ["spicy", "beef"],
     "ingredientList": [
       { "quantity": 1, "unit": null, "ref": "white-onion", "prep": "diced" },
       { "quantity": 1, "unit": null, "ref": "green-pepper", "prep": "ribs and seeds removed and diced" },
@@ -75,7 +75,7 @@
     "category": "soup",
     "imagePath": "/recipe-images/broccoli-cheddar-soup.jpg",
     "servings": 4,
-    "tags": [],
+    "tags": ["comfort-food", "vegetarian"],
     "ingredientList": [
       { "quantity": 5, "unit": "Tbsp", "ref": "butter", "note": "unsalted" },
       { "quantity": 1, "unit": null, "ref": "yellow-onion", "note": "medium", "prep": "diced" },
@@ -112,7 +112,7 @@
   "category": "side",
   "imagePath": "/recipe-images/corn-pudding.jpg",
   "servings": 8,
-  "tags": [],
+  "tags": ["comfort-food"],
   "ingredientList": [
     { "quantity": 2, "unit": "15 oz can", "ref": "whole-kernel-corn" },
     { "quantity": 2, "unit": "15 oz can", "ref": "cream-style-corn" },
@@ -136,7 +136,7 @@
   "category": "side",
   "imagePath": "/recipe-images/corn-zucchini-sautee.jpg",
   "servings": 4,
-  "tags": [],
+  "tags": ["quick", "vegetarian"],
   "ingredientList": [
     { "quantity": 2, "unit": "15 oz can", "ref": "whole-kernel-corn" },
     { "quantity": 1, "unit": "medium", "ref": "zucchini" },
@@ -162,7 +162,7 @@
   "category": "entree",
   "imagePath": "/recipe-images/lemony-chicken.jpg",
   "servings": 2,
-  "tags": ["pasta", "chicken", "lemon", "weeknight", "italian"],
+  "tags": ["pasta", "chicken", "italian"],
   "ingredientList": [
     { "quantity": 1, "unit": null, "ref": "zucchini" },
     { "quantity": 1, "unit": "clove", "ref": "garlic", "prep": "minced" },
@@ -202,7 +202,7 @@
   "category": "entree",
   "imagePath": "/recipe-images/pork-chops.jpg",
   "servings": 2,
-  "tags": ["pork", "skillet", "quick", "weeknight", "high-protein"],
+  "tags": ["pork", "quick"],
   "ingredientList": [
     { "quantity": 2, "unit": null, "ref": "pork-chops", "note": "bone-in", "prep": "about 1 inch thick each" },
     { "quantity": 2, "unit": "Tbsp", "ref": "butter", "note": "unsalted" },
@@ -225,7 +225,7 @@
   "category": "salad",
   "imagePath": "/recipe-images/quinoa-bowl.jpg",
   "servings": 2,
-  "tags": ["healthy", "high-protein", "bowl", "meal-prep", "gluten-free"],
+  "tags": ["healthy", "chicken", "seafood"],
   "ingredientList": [
     { "quantity": 0.5, "unit": "cup", "ref": "quinoa" },
     { "quantity": 1, "unit": "head", "ref": "romaine-lettuce", "prep": "or lettuce of choice, shredded" },
@@ -258,7 +258,7 @@
   "category": "entree",
   "imagePath": "/recipe-images/chicken-ramen.jpg",
   "servings": 2,
-  "tags": ["ramen", "noodles", "chicken", "asian-inspired", "spicy", "comfort-food"],
+  "tags": ["chicken", "asian", "spicy", "comfort-food"],
   "ingredientList": [
     { "quantity": 4, "unit": "clove", "ref": "garlic", "prep": "minced" },
     { "quantity": 1, "unit": "thumb", "ref": "ginger", "prep": "minced" },
@@ -295,7 +295,7 @@
   "category": "entree",
   "imagePath": "/recipe-images/balsamic-parm-risotto.jpg",
   "servings": 2,
-  "tags": ["risotto", "vegetarian", "italian-inspired", "comfort-food", "rice"],
+  "tags": ["vegetarian", "italian", "comfort-food"],
   "ingredientList": [
     { "quantity": 2, "unit": null, "ref": "scallion", "prep": "sliced, with whites and greens separated" },
     { "quantity": 1, "unit": null, "ref": "zucchini", "prep": "diced" },
@@ -326,7 +326,7 @@
   "category": "entree",
   "imagePath": "/recipe-images/sheperds-pie.jpg",
   "servings": 2,
-  "tags": ["comfort-food", "beef", "casserole", "weeknight", "baked"],
+  "tags": ["comfort-food", "beef"],
   "ingredientList": [
     { "quantity": 1, "unit": "lb", "ref": "yukon-gold-potatoes" },
     { "quantity": 2, "unit": null, "ref": "carrot", "note": "large" },
@@ -365,7 +365,7 @@
   "category": "soup",
   "imagePath": "/recipe-images/tortellini-soup.jpg",
   "servings": 4,
-  "tags": ["soup", "vegetarian", "pasta", "comfort-food", "italian-inspired"],
+  "tags": ["vegetarian", "pasta", "comfort-food", "italian"],
   "ingredientList": [
     { "quantity": 1, "unit": "medium", "ref": "yellow-onion", "prep": "diced" },
     { "quantity": 2, "unit": null, "ref": "carrot", "note": "large", "prep": "sliced into 1/2 inch pieces" },
@@ -396,7 +396,7 @@
   "category": "soup",
   "imagePath": "/recipe-images/beef-vegetable-soup.jpg",
   "servings": 4,
-  "tags": ["soup", "beef", "comfort-food", "one-pot", "meal-prep"],
+  "tags": ["beef", "comfort-food"],
   "ingredientList": [
     { "quantity": 1, "unit": null, "ref": "white-onion", "prep": "chopped" },
     { "quantity": 2, "unit": "stalk", "ref": "celery", "prep": "chopped" },
@@ -431,6 +431,240 @@
     "Add potatoes and simmer for 20 more minutes uncovered. Add cooked mushrooms (optional) in the last 5 minutes.",
     "Season to taste with more salt and pepper and serve.",
     "Optional: Buttery mushrooms — Melt butter in a medium skillet over medium-high heat. Add mushrooms and cook for about 5 minutes until browned. Season with salt and pepper."
+  ]
+},
+{
+  "id": "spicy-garlic-shrimp",
+  "title": "Spicy Garlic Shrimp",
+  "category": "entree",
+  "imagePath": "/recipe-images/spicy-garlic-shrimp.jpg",
+  "servings": 2,
+  "tags": ["seafood", "spicy", "quick", "asian"],
+  "ingredientList": [
+    { "quantity": 0.75, "unit": "lb", "ref": "shrimp", "note": "peeled and deveined" },
+    { "quantity": 4, "unit": "clove", "ref": "garlic", "prep": "minced" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "soy-sauce" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "sesame-oil" },
+    { "quantity": 1, "unit": "tsp", "ref": "chili-flakes" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "olive-oil" },
+    { "quantity": 1, "unit": null, "ref": "scallion", "prep": "sliced" }
+  ],
+  "instructions": [
+    "Heat olive oil in a skillet over medium-high heat.",
+    "Add garlic and cook until fragrant.",
+    "Add shrimp and cook 2–3 minutes per side until pink.",
+    "Stir in soy sauce, sesame oil, and chili flakes.",
+    "Top with sliced scallions and serve.",
+    "This is a temporary recipe"
+  ]
+},
+{
+  "id": "quick-chicken-pesto-pasta",
+  "title": "Quick Chicken Pesto Pasta",
+  "category": "entree",
+  "imagePath": "/recipe-images/chicken-pesto-pasta.jpg",
+  "servings": 2,
+  "tags": ["chicken", "pasta", "italian", "quick"],
+  "ingredientList": [
+    { "quantity": 6, "unit": "oz", "ref": "pasta" },
+    { "quantity": 1, "unit": "lb", "ref": "chicken-breast", "prep": "cubed" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "pesto" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "olive-oil" },
+    { "quantity": 0.25, "unit": "cup", "ref": "parmesan-cheese", "prep": "grated" },
+    { "quantity": null, "unit": null, "ref": "salt" },
+    { "quantity": null, "unit": null, "ref": "pepper" }
+  ],
+  "instructions": [
+    "Cook pasta according to package directions.",
+    "Heat olive oil in a skillet and cook chicken until browned.",
+    "Drain pasta and add to skillet with chicken.",
+    "Stir in pesto and Parmesan cheese.",
+    "Season with salt and pepper and serve.",
+    "This is a temporary recipe"
+  ]
+},
+{
+  "id": "italian-chopped-salad",
+  "title": "Italian Chopped Salad",
+  "category": "salad",
+  "imagePath": "/recipe-images/italian-chopped-salad.jpg",
+  "servings": 2,
+  "tags": ["italian", "healthy", "quick"],
+  "ingredientList": [
+    { "quantity": 1, "unit": "head", "ref": "romaine-lettuce", "prep": "chopped" },
+    { "quantity": 0.5, "unit": "cup", "ref": "cherry-tomatoes", "prep": "halved" },
+    { "quantity": 0.25, "unit": "cup", "ref": "red-onion", "prep": "thinly sliced" },
+    { "quantity": 0.25, "unit": "cup", "ref": "cucumber", "prep": "diced" },
+    { "quantity": 0.25, "unit": "cup", "ref": "parmesan-cheese", "prep": "shaved" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "italian-dressing" }
+  ],
+  "instructions": [
+    "Place chopped lettuce in a large bowl.",
+    "Add tomatoes, onion, and cucumber.",
+    "Toss with Italian dressing.",
+    "Top with shaved Parmesan and serve.",
+    "This is a temporary recipe"
+  ]
+},
+{
+  "id": "spicy-sesame-noodle-salad",
+  "title": "Spicy Sesame Noodle Salad",
+  "category": "salad",
+  "imagePath": "/recipe-images/sesame-noodle-salad.jpg",
+  "servings": 2,
+  "tags": ["asian", "spicy", "quick"],
+  "ingredientList": [
+    { "quantity": 6, "unit": "oz", "ref": "ramen-noodles" },
+    { "quantity": 1, "unit": "cup", "ref": "cabbage", "prep": "shredded" },
+    { "quantity": 1, "unit": null, "ref": "carrot", "prep": "shredded" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "sesame-oil" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "soy-sauce" },
+    { "quantity": 1, "unit": "tsp", "ref": "sriracha" }
+  ],
+  "instructions": [
+    "Cook ramen noodles and rinse with cold water.",
+    "Combine cabbage and carrot in a bowl.",
+    "Whisk sesame oil, soy sauce, and sriracha.",
+    "Toss noodles and vegetables with dressing.",
+    "Serve chilled or at room temperature.",
+    "This is a temporary recipe"
+  ]
+},
+{
+  "id": "chicken-caesar-salad",
+  "title": "Chicken Caesar Salad",
+  "category": "salad",
+  "imagePath": "/recipe-images/chicken-caesar-salad.jpg",
+  "servings": 2,
+  "tags": ["chicken", "quick", "healthy"],
+  "ingredientList": [
+    { "quantity": 1, "unit": "lb", "ref": "chicken-breast", "prep": "sliced" },
+    { "quantity": 1, "unit": "head", "ref": "romaine-lettuce", "prep": "chopped" },
+    { "quantity": 0.25, "unit": "cup", "ref": "parmesan-cheese" },
+    { "quantity": 0.25, "unit": "cup", "ref": "croutons" },
+    { "quantity": 3, "unit": "Tbsp", "ref": "caesar-dressing" }
+  ],
+  "instructions": [
+    "Season and cook chicken in a skillet until fully cooked.",
+    "Place lettuce in a bowl.",
+    "Slice chicken and add to lettuce.",
+    "Add croutons and Parmesan cheese.",
+    "Toss with Caesar dressing and serve.",
+    "This is a temporary recipe"
+  ]
+},
+{
+  "id": "garlic-parmesan-roasted-potatoes",
+  "title": "Garlic Parmesan Roasted Potatoes",
+  "category": "side",
+  "imagePath": "/recipe-images/roasted-potatoes.jpg",
+  "servings": 2,
+  "tags": ["comfort-food", "quick"],
+  "ingredientList": [
+    { "quantity": 1, "unit": "lb", "ref": "potatoes", "prep": "cubed" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "olive-oil" },
+    { "quantity": 2, "unit": "clove", "ref": "garlic", "prep": "minced" },
+    { "quantity": 0.25, "unit": "cup", "ref": "parmesan-cheese" },
+    { "quantity": null, "unit": null, "ref": "salt" },
+    { "quantity": null, "unit": null, "ref": "pepper" }
+  ],
+  "instructions": [
+    "Preheat oven to 425°.",
+    "Toss potatoes with olive oil, garlic, salt and pepper.",
+    "Spread on a baking sheet.",
+    "Roast until golden and crispy, about 25 minutes.",
+    "Sprinkle with Parmesan before serving.",
+    "This is a temporary recipe"
+  ]
+},
+{
+  "id": "spicy-garlic-green-beans",
+  "title": "Spicy Garlic Green Beans",
+  "category": "side",
+  "imagePath": "/recipe-images/spicy-green-beans.jpg",
+  "servings": 2,
+  "tags": ["spicy", "asian", "healthy"],
+  "ingredientList": [
+    { "quantity": 2, "unit": "cup", "ref": "green-beans" },
+    { "quantity": 2, "unit": "clove", "ref": "garlic", "prep": "minced" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "soy-sauce" },
+    { "quantity": 1, "unit": "tsp", "ref": "chili-flakes" },
+    { "quantity": 1, "unit": "Tbsp", "ref": "sesame-oil" }
+  ],
+  "instructions": [
+    "Heat sesame oil in a skillet.",
+    "Add garlic and cook briefly.",
+    "Add green beans and sauté until tender-crisp.",
+    "Stir in soy sauce and chili flakes.",
+    "Serve warm.",
+    "This is a temporary recipe"
+  ]
+},
+{
+  "id": "chocolate-mug-cake",
+  "title": "Chocolate Mug Cake",
+  "category": "dessert",
+  "imagePath": "/recipe-images/chocolate-mug-cake.jpg",
+  "servings": 1,
+  "tags": ["sweet", "quick"],
+  "ingredientList": [
+    { "quantity": 4, "unit": "Tbsp", "ref": "flour" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "cocoa-powder" },
+    { "quantity": 3, "unit": "Tbsp", "ref": "sugar" },
+    { "quantity": 3, "unit": "Tbsp", "ref": "milk" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "vegetable-oil" }
+  ],
+  "instructions": [
+    "Combine all ingredients in a microwave-safe mug.",
+    "Mix until smooth.",
+    "Microwave for about 1 minute.",
+    "Let cool slightly before eating.",
+    "This is a temporary recipe"
+  ]
+},
+{
+  "id": "cinnamon-apple-crisp",
+  "title": "Cinnamon Apple Crisp",
+  "category": "dessert",
+  "imagePath": "/recipe-images/apple-crisp.jpg",
+  "servings": 2,
+  "tags": ["sweet", "comfort-food"],
+  "ingredientList": [
+    { "quantity": 2, "unit": null, "ref": "apple", "prep": "sliced" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "sugar" },
+    { "quantity": 1, "unit": "tsp", "ref": "cinnamon" },
+    { "quantity": 0.25, "unit": "cup", "ref": "oats" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "butter" }
+  ],
+  "instructions": [
+    "Preheat oven to 375°.",
+    "Place apples in a baking dish.",
+    "Mix oats, sugar, cinnamon, and butter.",
+    "Spread mixture over apples.",
+    "Bake until golden and bubbly.",
+    "This is a temporary recipe"
+  ]
+},
+{
+  "id": "vanilla-yogurt-berry-parfait",
+  "title": "Vanilla Yogurt Berry Parfait",
+  "category": "dessert",
+  "imagePath": "/recipe-images/berry-parfait.jpg",
+  "servings": 2,
+  "tags": ["sweet", "healthy", "quick"],
+  "ingredientList": [
+    { "quantity": 1, "unit": "cup", "ref": "greek-yogurt" },
+    { "quantity": 0.5, "unit": "cup", "ref": "mixed-berries" },
+    { "quantity": 2, "unit": "Tbsp", "ref": "granola" },
+    { "quantity": 1, "unit": "tsp", "ref": "honey" }
+  ],
+  "instructions": [
+    "Spoon yogurt into a bowl or glass.",
+    "Add a layer of berries.",
+    "Top with granola.",
+    "Drizzle with honey.",
+    "Serve immediately.",
+    "This is a temporary recipe"
   ]
 }
 ]

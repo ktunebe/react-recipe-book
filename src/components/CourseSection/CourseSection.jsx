@@ -2,31 +2,40 @@ import React from 'react'
 import RecipePill from '../RecipePill'
 import recipes from '../../assets/lists/recipes.json'
 
-function CourseSection({ course, searchTerm }) {
+function CourseSection({ course, searchTerm, activeTag }) {
 	const courseRecipes = recipes.filter((recipe) => {
 		return recipe.category === course.id
 	})
 	const normalizedSearchTerm = searchTerm.trim().toLowerCase()
+	const visibleRecipes = courseRecipes.filter((recipe) => {
+		const matchesTitle =
+			!normalizedSearchTerm ||
+			recipe.title.toLowerCase().includes(normalizedSearchTerm)
 
-	const filteredRecipes = courseRecipes.filter((recipe) => {
-		if (!normalizedSearchTerm) return true
+		const matchesAnyTagText =
+			!normalizedSearchTerm ||
+			(recipe.tags ?? []).some((tag) => tag.includes(normalizedSearchTerm))
 
-		const titleMatches = recipe.title
-			.toLowerCase()
-			.includes(normalizedSearchTerm)
+		const matchesSelectedTag =
+			!activeTag || (recipe.tags ?? []).includes(activeTag)
 
-		return titleMatches
+		// If there's a search term: match title OR tags text
+		// Then also apply the selected-tag filter if one is chosen
+		const matchesSearch =
+			!normalizedSearchTerm || matchesTitle || matchesAnyTagText
+
+		return matchesSearch && matchesSelectedTag
 	})
 
 	return (
-		<div className="my-4">
-			<h2 className="text-lg">
+		<div className="my-8">
+			<h2 className="text-xl lg:text-2xl">
 				<span className="font-semibold">{course.text}</span> &middot;{' '}
 				{courseRecipes.length}
 			</h2>
 			<hr className="text-accent" />
-			<ul className="flex flex-wrap gap-4 mt-2">
-				{filteredRecipes.map((recipe) => (
+			<ul className={`flex flex-wrap gap-4 text-sm sm:text-base mt-2 ${activeTag || searchTerm ? 'justify-start' : 'justify-center'}`}>
+				{visibleRecipes.map((recipe) => (
 					<RecipePill key={recipe.id} href={recipe.id} title={recipe.title} />
 				))}
 			</ul>
