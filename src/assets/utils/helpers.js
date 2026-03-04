@@ -1,7 +1,7 @@
 // Pluralize words
 export function pluralize(string) {
   switch (true) {
-    case string.endsWith('s') || string.endsWith('h'):
+    case string.endsWith('s') || string.endsWith('h') || string.endsWith('ato'):
       return `${string}es`;
     case ['tsp', 'Tbsp', 'oz'].includes(string):
       return string;

@@ -295,8 +295,8 @@
     "name": "cheese tortellini",
     "description": "Cheese tortellini is a ring-shaped pasta filled with cheese, commonly used in soups and Italian-inspired dishes."
   },
-    "potatoes": {
-    "name": "potatoes",
+    "potato": {
+    "name": "potato",
     "description": "Potatoes are a starchy root vegetable commonly used in soups, stews, mashes, and roasted dishes."
   },
   "stewing-beef": {

@@ -40,7 +40,7 @@ function IngredientListItem({ ingredient, recipeMultiplier, activePopupId, setAc
       />
 
       <div className={isChecked ? 'italic text-gray-500' : ''}>
-        {quantity != null && (
+        {updatedQuantity != null && (
           <span>
             {whole !== 0 && `${whole} `}
             {fraction !== 0 && `${fraction} `}
@@ -58,7 +58,13 @@ function IngredientListItem({ ingredient, recipeMultiplier, activePopupId, setAc
             onClick={handleIngredientClick}
             type="button"
           >
-            {quantity ? instance.name : capitalize(instance.name)}
+            {updatedQuantity 
+              ? unit 
+                ? instance.name
+                : updatedQuantity > 1 
+                  ? pluralize(instance.name)
+                  : instance.name 
+              : capitalize(instance.name)}
           </button>
 
           {isPopupVisible && anchorRect && (
