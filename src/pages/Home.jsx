@@ -42,7 +42,7 @@ function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="max-w-300 px-6 sm:px-12 mx-auto">
+			<div className="max-w-300 px-6 sm:px-12 mx-auto w-full">
 				<TagSelect activeTag={activeTag} setActiveTag={setActiveTag} />
 				{courses.map((course) => (
 					<CourseSection
