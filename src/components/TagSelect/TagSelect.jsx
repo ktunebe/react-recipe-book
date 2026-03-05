@@ -3,7 +3,7 @@ import { uniqueTags } from '../../assets/lists/tags.js'
 
 function TagSelect({ activeTag, setActiveTag }) {
 	return (
-		<div className="mx-auto mb-8 max-w-150">
+		<div className="mx-auto mt-10 max-w-175">
 			<h3 className="text-center text-sm sm:text-base font-medium text-[#2F3E46]">
 				Browse by tag
 			</h3>

@@ -21,7 +21,7 @@ export default function Recipe() {
   })
 
   return (
-  <div className="flex flex-col mx-auto">
+  <div className="flex flex-col mx-auto max-w-350 px-6 sm:px-12">
     <header className='flex justify-between items-center pt-6 px-6'>
       <h1 className='text-4xl'>{recipe.title}</h1>
       <Link to='/' className='recipe-pill md:text-xl'>Home</Link>

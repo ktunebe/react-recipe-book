@@ -28,13 +28,13 @@ function CourseSection({ course, searchTerm, activeTag }) {
 	})
 
 	return (
-		<div className="my-8">
-			<h2 className="text-xl lg:text-2xl">
-				<span className="font-semibold">{course.text}</span> &middot;{' '}
+		<div className="my-12">
+			<h2 className="text-base mb-1">
+				<span className="font-semibold text-xl">{course.text}</span> &middot;{' '}
 				{courseRecipes.length}
 			</h2>
 			<hr className="text-accent" />
-			<ul className={`flex flex-wrap gap-4 px-4 text-sm sm:text-base mt-2 ${activeTag || searchTerm ? 'justify-start' : 'justify-center'}`}>
+			<ul className={`flex flex-wrap gap-4 px-4 text-sm sm:text-base mt-4 mb-6 mx-auto max-w-250 justify-start`}>
 				{visibleRecipes.map((recipe) => (
 					<RecipePill key={recipe.id} href={recipe.id} title={recipe.title} />
 				))}

@@ -14,29 +14,34 @@ function Home() {
 	]
 
 	return (
-		<div>
-			<h1 className="mx-auto text-center text-5xl py-8 mb-6">My Recipes</h1>
-      <TagSelect activeTag={activeTag} setActiveTag={setActiveTag} />
-			<div className="mx-auto text-center">
-				<label htmlFor="search-input" className="text-lg lg:text-xl">
-					Search Recipes:{' '}
-				</label>
-				<input
-					id="search-input"
-					name="search-input"
-					type="text"
-					value={searchTerm}
-					onChange={(e) => setSearchTerm(e.target.value)}></input>
+		<>
+			<div className="flex flex-col sm:flex-row justify-between items-center px-6 border-b-2 border-gray-400 shadow-sm shadow-accent py-12">
+				<h1 className="text-5xl ml-4 font-serif">My Recipes</h1>
+				<div className="justify-self-end">
+					<label htmlFor="search-input" className="text-lg lg:text-xl">
+						Search Recipes:{' '}
+					</label>
+					<input
+						id="search-input"
+						name="search-input"
+						type="text"
+						value={searchTerm}
+						onChange={(e) => setSearchTerm(e.target.value)}></input>
+				</div>
 			</div>
-			{courses.map((course) => (
-				<CourseSection
-					key={course.id}
-					course={course}
-					searchTerm={searchTerm}
-					activeTag={activeTag}
-				/>
-			))}
-		</div>
+			{/* <hr className="text-accent w-screen" /> */}
+			<div className="max-w-350 px-6 sm:px-12">
+				<TagSelect activeTag={activeTag} setActiveTag={setActiveTag} />
+				{courses.map((course) => (
+					<CourseSection
+						key={course.id}
+						course={course}
+						searchTerm={searchTerm}
+						activeTag={activeTag}
+					/>
+				))}
+			</div>
+		</>
 	)
 }
 
