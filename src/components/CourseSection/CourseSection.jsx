@@ -29,8 +29,8 @@ function CourseSection({ course, searchTerm, activeTag }) {
 
 	return (
 		<div className="my-12">
-			<h2 className="text-base mb-1">
-				<span className="font-semibold text-xl">{course.text}</span> &middot;{' '}
+			<h2 className="text-base lg:text-lg mb-1">
+				<span className="font-semibold text-xl lg:text-2xl">{course.text}</span> &middot;{' '}
 				{courseRecipes.length}
 			</h2>
 			<hr className="text-accent" />

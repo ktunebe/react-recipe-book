@@ -31,7 +31,7 @@ body {
   }
 
 	#search-input {
-		@apply rounded-full border py-0.5 px-3 border-accent focus:outline-none focus-visible:ring-1 focus-visible:ring-accent focus-visible:border-accent;
+		@apply rounded-full border py-1 pl-9 pr-3 border-accent focus:outline-none focus-visible:ring-1 focus-visible:ring-accent focus-visible:border-accent sm:text-lg lg:text-xl;
 	}
 
 	.dropdown {
