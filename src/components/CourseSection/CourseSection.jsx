@@ -27,11 +27,13 @@ function CourseSection({ course, searchTerm, activeTag }) {
 		return matchesSearch && matchesSelectedTag
 	})
 
+	
+
 	return (
 		<div className="my-12">
 			<h2 className="text-base lg:text-lg mb-1">
 				<span className="font-semibold text-xl lg:text-2xl">{course.text}</span> &middot;{' '}
-				{courseRecipes.length}
+				{visibleRecipes.length}
 			</h2>
 			<hr className="text-accent" />
 			<ul className={`flex flex-wrap gap-4 px-4 text-sm sm:text-base mt-4 mb-6 mx-auto max-w-250 justify-start`}>
