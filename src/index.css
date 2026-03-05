@@ -27,7 +27,7 @@ body {
 	}
 
   .tag-pill {
-    @apply rounded-full px-3 py-1 text-xs sm:text-sm lg:text-base shadow-sm transition  focus:outline-none focus:ring-2 focus:ring-[#84A98C]/50 
+    @apply rounded-full border border-gray-500 px-3 py-1 text-xs sm:text-sm lg:text-base shadow-sm transition  
   }
 
 	#search-input {

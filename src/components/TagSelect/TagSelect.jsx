@@ -3,7 +3,7 @@ import { uniqueTags } from '../../assets/lists/tags.js'
 
 function TagSelect({ activeTag, setActiveTag }) {
 	return (
-		<div className="mx-auto mt-10 max-w-175">
+		<div className="mx-auto pt-10 max-w-175">
 			<h3 className="text-center text-sm sm:text-base font-medium text-[#2F3E46]">
 				Browse by tag
 			</h3>
@@ -22,7 +22,7 @@ function TagSelect({ activeTag, setActiveTag }) {
 							className={`tag-pill ${
 								isActive
 									? 'bg-accent text-white hover:bg-accent/50'
-									: 'bg-white hover:bg-[#F1EFEA]'
+									: 'bg-accent/20 hover:bg-[#F1EFEA]'
 							}`}>
 							#{tag}
 						</button>
