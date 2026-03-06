@@ -24,7 +24,7 @@ This project demonstrates frontend architecture, state management, and polished 
 - Tailwind CSS v4
 - React Router
 - Static JSON data layer
-- Netlify deployment
+- AWS deployment through Amplify
 
 ---
 
