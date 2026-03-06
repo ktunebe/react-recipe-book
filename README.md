@@ -3,7 +3,7 @@
 A modern, responsive recipe web application built with **React**, **Vite**, and **Tailwind CSS**.  
 This project demonstrates frontend architecture, state management, and polished UI/UX design using a real-world content system powered by structured JSON data.
 
- **Live Demo:** https://kent-cookbook.netlify.app/
+ **Live Demo:** https://main.dxyk5m4fpxby4.amplifyapp.com/
 
 ---
 
