@@ -10,9 +10,9 @@ export default function Recipe() {
   const [recipeMultiplier, setRecipeMultiplier] = React.useState(1)
   const { id } = useParams()
   const recipe = recipes.find(recipe => recipe.id === id)
-  
+  // Fallback
   if (!recipe) return <div>Recipe not found</div>
-
+  // Add instances of ingredients for this recipe only to pass down
   const currentIngredients = recipe.ingredientList.map(i => {
     return {
       ...i,

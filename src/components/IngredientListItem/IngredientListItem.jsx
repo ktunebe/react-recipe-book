@@ -5,17 +5,18 @@ import IngredientPopup from '../IngredientPopup'
 function IngredientListItem({ ingredient, recipeMultiplier, activePopupId, setActivePopupId }) {
   const [isChecked, setIsChecked] = React.useState(false)
   const [anchorRect, setAnchorRect] = React.useState(null)
-
+  // Popup trigger
   const triggerRef = React.useRef(null)
-
+  // Check active popup with ingredient
   const isPopupVisible = activePopupId === ingredient.ref
+  // Destructure ingredient
   const { instance, note, prep, quantity, unit } = ingredient
-
+  // Use multiplier to update quantity, fractify helper to display fractions
   const updatedQuantity = quantity * recipeMultiplier
   const { whole, fraction } = fractify(updatedQuantity)
-
+  // Checkbox handler
   const handleCheckboxChange = () => setIsChecked(prev => !prev)
-
+  // Ingredient popup click handler
   const handleIngredientClick = (e) => {
     e.stopPropagation()
 

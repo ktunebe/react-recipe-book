@@ -1,7 +1,7 @@
 // Pluralize words
 export function pluralize(string) {
   switch (true) {
-    case string.endsWith('s') || string.endsWith('h') || string.endsWith('ato'):
+    case string.endsWith('s') || string.endsWith('x') || string.endsWith('h') || string.endsWith('ato'):
       return `${string}es`;
     case ['tsp', 'Tbsp', 'oz'].includes(string):
       return string;
@@ -22,7 +22,7 @@ export function fractify(double) {
       return { whole, fraction: '⅛' };
     case remainder === 0.25:
       return { whole, fraction: '¼' };
-    case remainder > 0.3 && remainder < 0.38:
+    case remainder > 0.3 && remainder < 0.375:
       return { whole, fraction: '⅓' };
     case remainder === 0.375:
       return { whole, fraction: '⅜' };
