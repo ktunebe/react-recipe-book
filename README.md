@@ -14,7 +14,7 @@ This project demonstrates frontend architecture, state management, and polished 
 - Ingredient info popups with reusable data architecture
 - Search by title and tags
 - Mobile-first responsive design
-- Static deployment with optimized performance (Netlify)
+- Static deployment with optimized performance
 
 ---
 
